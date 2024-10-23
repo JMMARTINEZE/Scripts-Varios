@@ -28,6 +28,9 @@ problems = []
 # Buscar todas las etiquetas que contengan los campos
 field_tags = soup.find_all('b')
 
+field_dict = {}
+current_line = {}
+
 for field_tag in field_tags:
     field_name = field_tag.get_text(strip=True)
     if field_name.endswith(':'):
@@ -37,7 +40,19 @@ for field_tag in field_tags:
             field_value = value_tag.get_text(strip=True)
         else:
             field_value = ''
-        problems.append({field_name: field_value})
+        
+        if field_name == 'Description':
+            if current_line:
+                field_dict[len(problems)] = current_line
+                problems.append(current_line)
+                current_line = {}
+            current_line[field_name] = field_value
+        else:
+            current_line[field_name] = field_value
+
+if current_line:
+    field_dict[len(problems)] = current_line
+    problems.append(current_line)
 
 # Crear DataFrame de pandas
 df = pd.DataFrame(problems)
