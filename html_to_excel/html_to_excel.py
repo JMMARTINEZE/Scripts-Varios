@@ -26,23 +26,18 @@ soup = BeautifulSoup(html_content, 'html.parser')
 problems = []
 
 # Buscar todas las etiquetas que contengan los campos
-fields = ['ID', 'Description', 'Remediation', 'PowerShell Script', 
-          'Returned Value', 'Default Value', 'Expected Value', 
-          'Impact', 'Likelihood', 'Priority', 'RiskRating', 'References']
+field_tags = soup.find_all('b')
 
-problem_data = {}
-
-for field in fields:
-    field_tag = soup.find('b', string=f'{field}:')
-    if field_tag:
+for field_tag in field_tags:
+    field_name = field_tag.get_text(strip=True)
+    if field_name.endswith(':'):
+        field_name = field_name[:-1]  # Remove the colon
         value_tag = field_tag.find_next(['span', 'div', 'p'])
         if value_tag:
             field_value = value_tag.get_text(strip=True)
         else:
             field_value = ''
-        problem_data[field] = field_value
-
-problems.append(problem_data)
+        problems.append({field_name: field_value})
 
 # Crear DataFrame de pandas
 df = pd.DataFrame(problems)
