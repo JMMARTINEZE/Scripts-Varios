@@ -58,9 +58,9 @@ if current_line:
 df = pd.DataFrame(problems)
 
 # Guardar en Excel
-excel_path = r"html_to_excel\output_problemas.xlsx"
+excel_path = r"html_to_excel\fields.xlsx"
 df.to_excel(excel_path, index=False)
 
 # O guardar en CSV
-csv_path = r"html_to_excel\output_problemas.csv"
+csv_path = r"html_to_excel\fields.csv"
 df.to_csv(csv_path, index=False)

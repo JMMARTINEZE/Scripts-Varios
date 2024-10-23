@@ -1,7 +1,7 @@
-import subprocess
-import pandas as pd
 import os
+import subprocess
 import sys
+import pandas as pd
 
 def run_titles_script():
     script_path = os.path.join(os.path.dirname(__file__), 'titles_html_to_excel.py')
@@ -10,14 +10,6 @@ def run_titles_script():
 def run_fields_script():
     script_path = os.path.join(os.path.dirname(__file__), 'fields_html_to_excel.py')
     subprocess.run([sys.executable, script_path])
-
-def run_titles_script():
-    script_path = os.path.join(os.path.dirname(__file__), 'titles_html_to_excel.py')
-    subprocess.run(['python', script_path])
-
-def run_fields_script():
-    script_path = os.path.join(os.path.dirname(__file__), 'fields_html_to_excel.py')
-    subprocess.run(['python', script_path])
 
 def combine_output():
     try:
