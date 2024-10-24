@@ -20,6 +20,18 @@ def combine_output():
 
         combined_df.to_excel('html_to_excel/combined_output.xlsx', index=False)
         combined_df.to_csv('html_to_excel/combined_output.csv', index=False)
+
+        print("Output files combined successfully.")
+
+        # Delete old files
+        try:
+            os.remove('html_to_excel/titles.xlsx')
+            os.remove('html_to_excel/fields.xlsx')
+
+            print("Old files deleted successfully.")
+
+        except OSError as e:
+            print(f"Error deleting old files: {e}")
     except FileNotFoundError:
         print("Error: One or more input files not found.")
 
