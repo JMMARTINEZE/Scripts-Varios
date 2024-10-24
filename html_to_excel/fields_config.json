@@ -2,7 +2,6 @@
     "fields": [
         "ID",
         "Description",
-        "Priority",
         "RiskRating"
     ]
 }
