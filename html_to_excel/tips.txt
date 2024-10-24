@@ -1,0 +1,20 @@
+Just a demo
+
+{
+    "fields": [
+        "ID",
+        "Description",
+        "Remediation",
+        "PowerShell Script",
+        "Returned Value",
+        "Default Value",
+        "Expected Value",
+        "Impact",
+        "Likelihood",
+        "Priority",
+        "RiskRating",
+        "References"
+    ]
+} 
+
+Remember when call the scritp: html_to_excel/demo.html html_to_excel/fields_config.json

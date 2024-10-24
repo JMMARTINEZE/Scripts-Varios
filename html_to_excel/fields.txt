@@ -1,3 +1,0 @@
-'ID', 'Description', 'Remediation', 'PowerShell Script','Returned Value', 'Default Value', 'Expected Value', 'Impact', 'Likelihood', 'Priority', 'RiskRating', 'References'
-
-C:\Development\Scripts-varios\html_to_excel\demo.hml
