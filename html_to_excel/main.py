@@ -8,8 +8,9 @@ def main():
     # Call titles_html_to_excel.py and pass the HTML file as an argument
     subprocess.run(["python", "./html_to_excel/titles_html_to_excel.py", html_filepath])
 
-    # Call fields_html_to_excel.py and pass the HTML file as an argument
-    subprocess.run(["python", "./html_to_excel/fields_html_to_excel.py", html_filepath])
+    # Call fields_html_to_excel.py and pass the HTML file and configuration file as arguments
+    config_filepath = "html_to_excel/fields_config.json"
+    subprocess.run(["python", "./html_to_excel/fields_html_to_excel.py", html_filepath, config_filepath])
 
     # Call combine_csv.py
     subprocess.run(["python", "./html_to_excel/combine_csv.py"])
