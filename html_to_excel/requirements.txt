@@ -2,3 +2,6 @@ pandas
 beautifulsoup4
 openpyxl
 chardet
+python-docx
+requests
+deep_translator
