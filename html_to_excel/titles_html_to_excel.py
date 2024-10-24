@@ -1,6 +1,8 @@
 import pandas as pd
 from bs4 import BeautifulSoup
 import chardet
+import sys
+
 
 def detect_encoding(file_path):
     with open(file_path, 'rb') as file:
@@ -8,8 +10,8 @@ def detect_encoding(file_path):
     result = chardet.detect(raw_data)
     return result['encoding']
 
-def main():
-    html_file = r"html_to_excel\demo.html"
+
+def main(html_file):
     encoding = detect_encoding(html_file)
     print(f"Codificación detectada: {encoding}")
 
@@ -33,5 +35,11 @@ def main():
     df = pd.DataFrame(titles, columns=['Title'])
     df.to_excel('html_to_excel/titles.xlsx', index=False)
 
+
 if __name__ == '__main__':
-    main()
+    if len(sys.argv) != 2:
+        print("Usage: python titles_html_to_excel.py <html_file>")
+        sys.exit(1)
+
+    html_file = sys.argv[1]
+    main(html_file)
