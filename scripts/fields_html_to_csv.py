@@ -87,12 +87,12 @@ def main(html_file, config_file):
         problems.append(current_line)
 
     df = pd.DataFrame(problems)
-    df.to_excel('html_to_excel/fields.xlsx', index=False)
+    # df.to_excel('html_to_excel/fields.xlsx', index=False) Change it if you want an excel file
     df.to_csv('html_to_excel/fields.csv', index=False)
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print("Usage: python fields_html_to_excel.py <html_file> <config_file>")
+        print("Usage: python fields_html_to_csv.py <html_file> <config_file>")
         sys.exit(1)
 
     html_file = sys.argv[1]

@@ -5,6 +5,15 @@ import sys
 
 
 def detect_encoding(file_path):
+    """
+    Detects the encoding of a file.
+
+    Args:
+        file_path (str): The path to the file to detect the encoding of.
+
+    Returns:
+        str: The detected encoding of the file.
+    """
     with open(file_path, 'rb') as file:
         raw_data = file.read(1024)
     result = chardet.detect(raw_data)
@@ -12,6 +21,16 @@ def detect_encoding(file_path):
 
 
 def main(html_file):
+    """
+    Extracts titles from an HTML file and saves them to a CSV file.
+
+    Args:
+        html_file (str): The path to the HTML file to extract titles from.
+
+    The function detects the encoding of the HTML file, parses it using BeautifulSoup,
+    and extracts the titles from the HTML. The extracted titles are organized into a
+    list and saved as a CSV file named 'titles.csv' in the 'html_to_excel' folder.
+    """
     encoding = detect_encoding(html_file)
     print(f"Codificación detectada: {encoding}")
 
@@ -33,12 +52,13 @@ def main(html_file):
                 titles.append(title)
 
     df = pd.DataFrame(titles, columns=['Title'])
-    df.to_excel('html_to_excel/titles.xlsx', index=False)
+    # df.to_excel('html_to_excel/titles.xlsx', index=False)  Change it if you want an excel file
+    df.to_csv('html_to_excel/titles.csv', index=False, encoding='utf-8-sig')
 
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage: python titles_html_to_excel.py <html_file>")
+        print("Usage: python titles_html_to_csv.py <html_file>")
         sys.exit(1)
 
     html_file = sys.argv[1]

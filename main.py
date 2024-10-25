@@ -12,20 +12,15 @@ def main():
     4. Calls combine_csv.py to combine the extracted data into a single CSV file.
     5. Executes word_processor.py to generate a translated Word document based on the combined CSV data.
     """
-    # Ask for html file
     html_filepath = input("Enter the path to the original HTML file: ")
 
-    # Call titles_html_to_excel.py and pass the HTML file as an argument
-    subprocess.run(["python", "./html_to_excel/titles_html_to_excel.py", html_filepath])
+    subprocess.run(["python", "./html_to_excel/titles_html_to_csv.py", html_filepath])
 
-    # Call fields_html_to_excel.py and pass the HTML file and configuration file as arguments
     config_filepath = "html_to_excel/fields_config.json"
-    subprocess.run(["python", "./html_to_excel/fields_html_to_excel.py", html_filepath, config_filepath])
+    subprocess.run(["python", "./html_to_excel/fields_html_to_csv.py", html_filepath, config_filepath])
 
-    # Call combine_csv.py
     subprocess.run(["python", "./html_to_excel/combine_csv.py"])
 
-    # subprocess.run(["python", "./html_to_excel/translator.py"])
     subprocess.run(["python", "./html_to_excel/word_processor.py"])
 
 if __name__ == "__main__":
