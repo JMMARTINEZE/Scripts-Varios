@@ -60,7 +60,7 @@ def process_word_document(csv_filepath, template_filepath, output_filepath):
                 font = run.font
                 if key == 'RiskRating':
                     font.bold = True
-            
+                
                     # Set font color
                     if translated_value == 'Crítico':
                         font.color.rgb = RGBColor(139, 0, 0)  # Dark red
@@ -72,8 +72,6 @@ def process_word_document(csv_filepath, template_filepath, output_filepath):
                         font.color.rgb = RGBColor(0, 128, 0)  # Green
                     elif translated_value == 'Informativo':
                         font.color.rgb = RGBColor(0, 0, 255)  # Blue
-                else:
-                    paragraph.add_run(translated_value)
 
     # Guardar el documento respetando la plantilla original
     doc.save(output_filepath)
