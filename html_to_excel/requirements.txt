@@ -5,3 +5,4 @@ chardet
 python-docx
 requests
 deep_translator
+tenacity

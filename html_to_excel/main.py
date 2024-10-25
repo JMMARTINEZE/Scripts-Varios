@@ -2,7 +2,17 @@ import os
 import subprocess
 
 def main():
-    # Ask for the original HTML file
+    """
+    Main function to process an HTML file and generate a translated Word document.
+
+    This function performs the following steps:
+    1. Prompts the user to enter the path to the original HTML file.
+    2. Executes titles_html_to_excel.py to extract titles from the HTML file.
+    3. Executes fields_html_to_excel.py to extract specified fields from the HTML file using a configuration file.
+    4. Calls combine_csv.py to combine the extracted data into a single CSV file.
+    5. Executes word_processor.py to generate a translated Word document based on the combined CSV data.
+    """
+    # Ask for html file
     html_filepath = input("Enter the path to the original HTML file: ")
 
     # Call titles_html_to_excel.py and pass the HTML file as an argument
@@ -15,8 +25,8 @@ def main():
     # Call combine_csv.py
     subprocess.run(["python", "./html_to_excel/combine_csv.py"])
 
-    # Call translator.py
-    subprocess.run(["python", "./html_to_excel/translator.py"])
+    # subprocess.run(["python", "./html_to_excel/translator.py"])
+    subprocess.run(["python", "./html_to_excel/word_processor.py"])
 
 if __name__ == "__main__":
     main()
