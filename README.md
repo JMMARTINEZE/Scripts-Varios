@@ -47,10 +47,25 @@ The code is organized into the following files:
 
 Project
 |___ html
-|  |___ demo.html
+|  |___ demo.html
 |
 |___ options
-|  |___ fields_config.json
-|  |___
+|  |___ config.json
+|  |___ template.docx
 |
-|___ options
+|___ utils
+|  |___ translator.py
+|  |___ document_processor.py
+|
+|___ csv_processors
+|  |___ __init__.py
+|  |___ combine_csv.py
+|  |___ fields_html_to_csv.py
+|  |___ html_to_csv.py
+|  |___ titles_html_to_csv.py
+|
+|___ main.py
+|
+|___ README.md
+|___ requirements.txt
+

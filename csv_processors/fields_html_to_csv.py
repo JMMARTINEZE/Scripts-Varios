@@ -87,8 +87,8 @@ def main(html_file, config_file):
         problems.append(current_line)
 
     df = pd.DataFrame(problems)
-    # df.to_excel('html_to_excel/fields.xlsx', index=False) Change it if you want an excel file
-    df.to_csv('html_to_excel/fields.csv', index=False)
+    # df.to_excel('../outputs/fields.xlsx', index=False) Change it if you want an excel file
+    df.to_csv('../outputs/fields.csv', index=False)
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
