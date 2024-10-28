@@ -6,44 +6,39 @@
 **Overview**
 ------------
 
-This project is a Python script that translates text in a Word document using a custom `Translator` class. It reads a CSV file, translates the text, and saves the resulting document while preserving the original template.
+Este proyecto es un script de Python que traduce texto en un documento de Word utilizando una clase `Translator` personalizada. Lee un archivo CSV, traduce el texto y guarda el documento resultante preservando la plantilla original.
 
-**Requirements**
+**Requisitos**
 ---------------
 
 * Python 3.x
-* `docx` library (`pip install docx`)
-* `chardet` library (`pip install chardet`)
-* `translator` library (custom implementation, see below)
+* Bibliotecas requeridas (ver `requirements.txt`)
+* Archivo CSV con texto a traducir (e.g. `combined_output.csv`)
+* Plantilla de documento de Word (e.g. `template.docx`)
 
-**Usage**
+**Uso**
 -----
 
-1. Install the required libraries by running `pip install -r requirements.txt`
-2. Create a CSV file containing the text to be translated (e.g. `combined_output.csv`)
-3. Create a Word document template (e.g. `template.docx`)
-4. Run the script using `python word_processor.py`
-5. The translated document will be saved as `traducciones_respetando_template.docx`
+1. Instala las bibliotecas requeridas ejecutando `pip install -r requirements.txt`
+2. Crea un archivo CSV con el texto a traducir (e.g. `combined_output.csv`)
+3. Crea una plantilla de documento de Word (e.g. `template.docx`)
+4. Ejecuta el script utilizando `python main.py`
+5. El documento traducido se guardará como `traducciones_respetando_template.docx`
 
-**Translator Class**
------------------
+**Estructura del Código**
+------------------------
 
-The `Translator` class is a custom implementation that translates text using a third-party API. You will need to implement this class yourself or use an existing translation library.
+El código se organiza en los siguientes archivos:
 
-**Code Structure**
------------------
-
-The code is organized into the following files:
-
-* `word_processor.py`: The main script that processes the Word document and translates the text.
-* `translator.py`: The custom `Translator` class implementation (not included in this repository).
-
-**Notes**
------
-
-* This script assumes that the CSV file has a specific structure and that the text to be translated is in a specific column.
-* The script uses the `docx` library to read and write Word documents, and the `chardet` library to detect the encoding of the CSV file.
-* The `Translator` class is not included in this repository and must be implemented separately.
+* `main.py`: El script principal que procesa el documento de Word y traduce el texto.
+* `utils/`: Carpeta con utilidades y clases auxiliares.
+	+ `translator.py`: Clase `Translator` personalizada que traduce texto utilizando una API de terceros.
+	+ `document_processor.py`: Clase que procesa el documento de Word y aplica la traducción.
+* `csv_processors/`: Carpeta con scripts que procesan archivos CSV.
+	+ `combine_csv.py`: Script que combina archivos CSV.
+	+ `fields_html_to_csv.py`: Script que extrae campos de un archivo HTML y los convierte en un archivo CSV.
+	+ `html_to_csv.py`: Script que extrae texto de un archivo HTML y lo convierte en un archivo CSV.
+	+ `titles_html_to_csv.py`: Script que extrae títulos de un archivo HTML y los convierte en un archivo CSV.
 
 Project
 |___ html
@@ -68,4 +63,19 @@ Project
 |
 |___ README.md
 |___ requirements.txt
+
+**Notas**
+-----
+
+* Este script asume que el archivo CSV tiene una estructura específica y que el texto a traducir está en una columna específica.
+* El script utiliza la biblioteca `docx` para leer y escribir documentos de Word, y la biblioteca `chardet` para detectar la codificación del archivo CSV.
+* La clase `Translator` es personalizada y debe ser implementada por el usuario.
+
+**Posibles Fallos**
+-------------------
+
+* Si el archivo CSV no tiene la estructura esperada, el script puede fallar.
+* Si la plantilla de documento de Word no es válida, el script puede fallar.
+* Si la API de traducción de terceros no está disponible, el script puede fallar.
+
 
