@@ -44,3 +44,13 @@ The code is organized into the following files:
 * This script assumes that the CSV file has a specific structure and that the text to be translated is in a specific column.
 * The script uses the `docx` library to read and write Word documents, and the `chardet` library to detect the encoding of the CSV file.
 * The `Translator` class is not included in this repository and must be implemented separately.
+
+Project
+|___ html
+|  |___ demo.html
+|
+|___ options
+|  |___ fields_config.json
+|  |___
+|
+|___ options
