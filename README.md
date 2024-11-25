@@ -67,6 +67,7 @@ Esta aplicación es un traductor de Excel que utiliza la API de Google Translate
 * Python 3.x
 * Biblioteca `pandas` para leer y escribir archivos de Excel
 * Biblioteca `googletrans` para utilizar la API de Google Translate
+* Biblioteca `tqdm` para tener un contador de gestión
 
 **Uso**
 -----
