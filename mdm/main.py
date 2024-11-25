@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import openpyxl
 
 # URL de la página web
-url = "https://learn.microsoft.com/es-es/mem/intune/protect/security-baseline-settings-mdm-all?pivots=mdm-23h2"
+url = "https://learn.microsoft.com/en-us/mem/intune/protect/security-baseline-settings-mdm-all?pivots=mdm-23h2"
 
 # Hacer la solicitud a la página web
 response = requests.get(url)

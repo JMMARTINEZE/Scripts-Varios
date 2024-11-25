@@ -1,0 +1,809 @@
+Configuración,Valor Predeterminado,Enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Impedir la habilitación de la cámara de pantalla de bloqueo,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-devicelock?WT.mc_id=Portal-fx#preventenablinglockscreencamera
+Impedir la habilitación de la presentación con diapositivas de pantalla de bloqueo,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-devicelock?WT.mc_id=Portal-fx#preventlockscreenslideshow
+Aplicación de restricciones de UAC a cuentas locales en inicios de sesión de red,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-mssecurityguide?WT.mc_id=Portal-fx#applyuacrestrictionstolocalaccountsonnetworklogon
+Configuración del controlador de cliente SMB v1,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-mssecurityguide?WT.mc_id=Portal-fx#configuresmbv1clientdriver
+Configuración del controlador MrxSmb10,Deshabilitar controlador (recomendado),Sin enlace
+Configuración del servidor SMB v1,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-mssecurityguide?WT.mc_id=Portal-fx#configuresmbv1server
+Habilitar la protección de sobrescritura del control estructurado de excepciones (SEHOP),habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-mssecurityguide?WT.mc_id=Portal-fx#enablestructuredexceptionhandlingoverwriteprotection
+Autenticación de WDigest (deshabilitar puede requerir KB2871997),deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-mssecurityguide?WT.mc_id=Portal-fx#wdigestauthentication
+MSS: (DisableIPSourceRouting IPv6) Nivel de protección de enrutamiento de origen IP (protege contra la suplantación de paquetes),habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-msslegacy?WT.mc_id=Portal-fx#ipv6sourceroutingprotectionlevel
+DisableIPSourceRouting IPv6 (Dispositivo),"la protección más alta, el enrutamiento de origen está completamente deshabilitado",Sin enlace
+MSS: (DisableIPSourceRouting) Nivel de protección de enrutamiento de origen IP (protege contra la suplantación de paquetes),habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-msslegacy?WT.mc_id=Portal-fx#ipsourceroutingprotectionlevel
+DisableIPSourceRouting (Dispositivo),"la protección más alta, el enrutamiento de origen está completamente deshabilitado",Sin enlace
+MSS: (EnableCMPRedirect) Permitir que los redireccionamientos ICMP invaliden las rutas generadas por OSPF,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-msslegacy?WT.mc_id=Portal-fx#allowicmpredirectstooverrideospfgeneratedroutes
+MSS: (NoNameReleaseOnDemand) Permitir que el equipo ignore las solicitudes de versión de nombres NetBIOS excepto los servidores WINS.,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-msslegacy?WT.mc_id=Portal-fx#allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers
+Desactivar la resolución de nombres de multidifusión,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-admx-dnsclient?WT.mc_id=Portal-fx#turn_off_multicast
+Prohibir el uso compartido de conexiones a Internet en la red de dominio DNS,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-admx-networkconnections?WT.mc_id=Portal-fx#nc-showsharedaccessui
+Rutas de acceso UNC protegidas,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-connectivity?WT.mc_id=Portal-fx#hardeneduncpaths
+Rutas UNC protegidas: (dispositivo),Sin valor predeterminado,Sin enlace
+Prohibir la conexión a redes que no son de dominio cuando se conecta a una red autenticada por dominio,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-windowsconnectionmanager?WT.mc_id=Portal-fx#prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork
+Configuración de La protección de redireccionamiento,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-printers?WT.mc_id=Portal-fx#configureredirectionguardpolicy
+Opciones de protección de redireccionamiento (dispositivo),Protección de redireccionamiento habilitada,Sin enlace
+Configuración de la conexión RPC,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-printers?WT.mc_id=Portal-fx#configurerpcconnectionpolicy
+Uso de la autenticación para conexiones RPC salientes: (Dispositivo),base: predeterminado,Sin enlace
+Protocolo para permitir conexiones RPC entrantes: (Dispositivo),RPC a través de TCP,Sin enlace
+Configuración de la escucha rpc,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-printers?WT.mc_id=Portal-fx#configurerpclistenerpolicy
+Protocolos para permitir conexiones RPC entrantes: (Dispositivo),RCP a través de TCP,Sin enlace
+Protocolo de autenticación que se va a usar para las conexiones RPC entrantes: (Dispositivo),Negociar,Sin enlace
+Configuración de RPC a través del puerto TPC,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-printers?WT.mc_id=Portal-fx#configurerpctcpport
+RPC a través del puerto TCP (dispositivo),0,Sin enlace
+Limita la instalación del controlador de impresión a los administradores,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-printers?WT.mc_id=Portal-fx#restrictdriverinstallationtoadministrators
+Administración del procesamiento de archivos específicos de la cola,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-printers?WT.mc_id=Portal-fx#configurecopyfilespolicy
+Administración del procesamiento de archivos específicos de la cola: (Dispositivo),limitar los archivos específicos de la cola a perfiles de color,Sin enlace
+Desactivar las notificaciones del sistema en la pantalla de bloqueo (usuario),habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-admx-wpn?WT.mc_id=Portal-fx#nolockscreentoastnotification
+Corrección de Oracle de cifrado,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-admx-credssp?WT.mc_id=Portal-fx#allowencryptionoracle
+Nivel de protección: (Dispositivo),Forzar clientes actualizados,Sin enlace
+El host remoto permite la delegación de credenciales no exportables,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-credentialsdelegation?WT.mc_id=Portal-fx#remotehostallowsdelegationofnonexportablecredentials
+Impedir la instalación de dispositivos mediante controladores que coincidan con estas clases de configuración de dispositivos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-deviceinstallation?WT.mc_id=Portal-fx#preventinstallationofmatchingdevicesetupclasses
+También se aplica a los dispositivos coincidentes que ya están instalados,True,Sin enlace
+Clases prevenidas,{d48179be-ec20-11d1-b6b8-00c04fa372a7},Sin enlace
+Directiva de inicialización del controlador boot-start,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-system?WT.mc_id=Portal-fx#bootstartdriverinitialization
+Elija los controladores de arranque que se pueden inicializar:,"bueno, desconocido y malo, pero crítico",Sin enlace
+Configuración del procesamiento de directivas del Registro,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-admx-grouppolicy?WT.mc_id=Portal-fx#cse-registry
+No aplicar durante el procesamiento en segundo plano periódico (dispositivo),False,Sin enlace
+Procesar incluso si los objetos directiva de grupo no han cambiado (Dispositivo),True,Sin enlace
+Desactivar la descarga de controladores de impresión,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-connectivity?WT.mc_id=Portal-fx#disabledownloadingofprintdriversoverhttp
+Desactivar la descarga de Internet para los asistentes de publicación web y pedidos en línea,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-connectivity?WT.mc_id=Portal-fx#disableinternetdownloadforwebpublishingandonlineorderingwizards
+Permitir que los CSP y AP personalizados se carguen en LSASS,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-lsa#allowcustomsspsaps
+Permitir estados de espera (S1-S3) al dormir (con batería),deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-power?WT.mc_id=Portal-fx#allowstandbystateswhensleepingonbattery
+Permitir estados en espera (S1-S3) al dormir (conectado),deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-power?WT.mc_id=Portal-fx#allowstandbywhensleepingpluggedin
+Requerir una contraseña cuando un equipo se reactiva (con la batería),habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-power?WT.mc_id=Portal-fx#requirepasswordwhencomputerwakesonbattery
+Requerir una contraseña cuando un equipo se reactiva (conectado),habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-power?WT.mc_id=Portal-fx#requirepasswordwhencomputerwakespluggedin
+Configuración de asistencia remota solicitada,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remoteassistance?WT.mc_id=Portal-fx#solicitedremoteassistance
+Restricción de clientes RPC no autenticados,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remoteprocedurecall?WT.mc_id=Portal-fx#restrictunauthenticatedrpcclients
+Restricción de cliente no autenticado en tiempo de ejecución de RPC que se va a aplicar:,autenticado,Sin enlace
+Permitir que las cuentas de Microsoft sean opcionales,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-appruntime?WT.mc_id=Portal-fx#allowmicrosoftaccountstobeoptional
+No permitir la reproducción automática para dispositivos que no son de volumen,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-autoplay?WT.mc_id=Portal-fx#disallowautoplayfornonvolumedevices
+Establecer el comportamiento predeterminado para la ejecución automática,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-autoplay?WT.mc_id=Portal-fx#setdefaultautorunbehavior
+Comportamiento de ejecución automática predeterminado,no ejecute ningún comando de ejecución automática,Sin enlace
+Desactivar reproducción automática,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-autoplay?WT.mc_id=Portal-fx#turnoffautoplay
+Desactivar reproducción automática activada:,todas las unidades,Sin enlace
+Denegar el acceso de escritura a unidades fijas no protegidas por BitLocker,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/bitlocker-csp?WT.mc_id=Portal-fx#fixeddrivesrequireencryption
+Denegar el acceso de escritura a unidades extraíbles no protegidas por BitLocker,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/bitlocker-csp?WT.mc_id=Portal-fx#removabledrivesrequireencryption
+No permitir el acceso de escritura a los dispositivos configurados en otra organización,False,Sin enlace
+Enumeración de cuentas de administrador en elevación,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-credentialsui?WT.mc_id=Portal-fx#enumerateadministrators
+Especificar el tamaño máximo del archivo de registro (KB),habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-eventlogservice?WT.mc_id=Portal-fx#specifymaximumfilesizeapplicationlog
+Tamaño máximo de registro (KB),32768,Sin enlace
+Especificar el tamaño máximo del archivo de registro (KB),habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-eventlogservice?WT.mc_id=Portal-fx#specifymaximumfilesizesecuritylog
+Tamaño máximo de registro (KB),196608,Sin enlace
+Especificar el tamaño máximo del archivo de registro (KB),habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-eventlogservice?WT.mc_id=Portal-fx#specifymaximumfilesizesystemlog
+Tamaño máximo de registro (KB),32768,Sin enlace
+Configurar Windows Defender SmartScreen,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-admx-windowsexplorer?WT.mc_id=Portal-fx#enablesmartscreen
+Elija una de las opciones siguientes: (Dispositivo),advertir y evitar la omisión,Sin enlace
+Desactivar la prevención de ejecución de datos para el Explorador,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-fileexplorer?WT.mc_id=Portal-fx#turnoffdataexecutionpreventionforexplorer
+Desactivar la terminación del montón en caso de daños,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-fileexplorer?WT.mc_id=Portal-fx#turnoffheapterminationoncorruption
+Permitir que el software se ejecute o instale incluso si la firma no es válida,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#allowsoftwarewhensignatureisinvalid
+Comprobación de la revocación de certificados de servidor,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#checkservercertificaterevocation
+Comprobación de firmas en los programas descargados,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#checksignaturesondownloadedprograms
+No permitir que los controles ActiveX se ejecuten en modo protegido cuando esté habilitado el modo protegido mejorado,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#donotallowactivexcontrolsinprotectedmode
+Desactivar la compatibilidad con cifrado,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#disableencryptionsupport
+Combinaciones de protocolo seguro,usar TLS 1.1 y TLS 1.2,Sin enlace
+Activar procesos de tabulación de 64 bits al ejecutarse en modo protegido mejorado en versiones de 64 bits de Windows,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#disableprocessesinenhancedprotectedmode
+Activar el modo protegido mejorado,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#allowenhancedprotectedmode
+Evitar omitir errores de certificado,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#disableignoringcertificateerrors
+Acceso a orígenes de datos entre dominios,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowaccesstodatasources
+Acceso a orígenes de datos entre dominios,Deshabilitar,Sin enlace
+"Permitir operaciones de cortar, copiar o pegar desde el Portapapeles mediante script",habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowcopypasteviascript
+Permitir operaciones de pegado mediante script,Deshabilitar,Sin enlace
+Permitir arrastrar y colocar o copiar y pegar archivos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowdraganddropcopyandpastefiles
+Permitir arrastrar y colocar o copiar y pegar archivos,Deshabilitar,Sin enlace
+Permitir la carga de archivos XAML,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowloadingofxamlfiles
+Archivos XAML,Deshabilitar,Sin enlace
+Permitir que solo los dominios aprobados usen controles ActiveX sin preguntar,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowonlyapproveddomainstouseactivexcontrols
+Permitir solo que los dominios aprobados usen controles ActiveX sin preguntar,Habilitar,Sin enlace
+Permitir que solo los dominios aprobados usen el control ActiveX de TDC,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowonlyapproveddomainstousetdcactivexcontrol
+Permitir solo que los dominios aprobados usen el control ActiveX de TDC,Habilitar,Sin enlace
+Permitir ventanas iniciadas por script sin restricciones de tamaño o posición,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowscriptinitiatedwindows
+Permitir ventanas iniciadas por script sin restricciones de tamaño o posición,Deshabilitar,Sin enlace
+Permitir scripting de controles WebBrowser de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowscriptingofinternetexplorerwebbrowsercontrols
+Control de explorador web de Internet Explorer,Deshabilitar,Sin enlace
+Permitir scriptlets,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowscriptlets
+Scriptlets,Deshabilitar,Sin enlace
+Permitir actualizaciones en la barra de estado mediante script,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowupdatestostatusbarviascript
+Actualizaciones de la barra de estado mediante script,Deshabilitar,Sin enlace
+Permitir que VBScript se ejecute en Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowvbscripttorunininternetexplorer
+Permitir que VBScript se ejecute en Internet Explorer,Deshabilitar,Sin enlace
+Solicitud automática de descargas de archivos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowautomaticpromptingforfiledownloads
+Solicitud automática de descargas de archivos,Deshabilitar,Sin enlace
+No ejecutar programas antimalware en controles ActiveX,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzonedonotrunantimalwareagainstactivexcontrols
+No ejecutar programas antimalware en controles ActiveX,Deshabilitar,Sin enlace
+Descarga de controles ActiveX firmados,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzonedownloadsignedactivexcontrols
+Descarga de controles ActiveX firmados,Deshabilitar,Sin enlace
+Descarga de controles ActiveX sin firmar,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzonedownloadunsignedactivexcontrols
+Descarga de controles ActiveX sin firmar,Deshabilitar,Sin enlace
+Habilitación del arrastre de contenido desde distintos dominios entre ventanas,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows
+Habilitación del arrastre de contenido desde distintos dominios entre ventanas,Deshabilitar,Sin enlace
+Habilitación del arrastre de contenido desde distintos dominios dentro de una ventana,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows
+Habilitación del arrastre de contenido desde distintos dominios dentro de una ventana,Deshabilitar,Sin enlace
+Incluir ruta de acceso local cuando el usuario carga archivos en un servidor,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneincludelocalpathwhenuploadingfilestoserver
+Incluir ruta de acceso local cuando el usuario carga archivos en un servidor,Deshabilitar,Sin enlace
+Inicializar y crear scripts de controles ActiveX no marcados como seguros,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneinitializeandscriptactivexcontrols
+Inicializar y crear scripts de controles ActiveX no marcados como seguros,Deshabilitar,Sin enlace
+Permisos de Java,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzonejavapermissions
+Permisos de Java,Deshabilitar Java,Sin enlace
+Inicio de aplicaciones y archivos en un IFRAME,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzonelaunchingapplicationsandfilesiniframe
+Inicio de aplicaciones y archivos en un IFRAME,Deshabilitar,Sin enlace
+Opciones de inicio de sesión,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzonelogonoptions
+Opciones de inicio de sesión,solicitud de nombre de usuario y contraseña,Sin enlace
+Navegar por ventanas y marcos en distintos dominios,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzonenavigatewindowsandframes
+Navegar por ventanas y marcos en distintos dominios,Deshabilitar,Sin enlace
+Ejecución de componentes dependientes de .NET Framework no firmados con Authenticode,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallownetframeworkreliantcomponents
+Ejecución de componentes dependientes de .NET Framework no firmados con Authenticode,Deshabilitar,Sin enlace
+Ejecución de componentes dependientes de .NET Framework firmados con Authenticode,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzonerunnetframeworkreliantcomponentssignedwithauthenticode
+Ejecución de componentes dependientes de .NET Framework firmados con Authenticode,Deshabilitar,Sin enlace
+Mostrar advertencia de seguridad para archivos potencialmente no seguros,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneshowsecuritywarningforpotentiallyunsafefiles
+Inicio de programas y archivos no seguros,preguntar,Sin enlace
+Activar el filtro de scripting entre sitios,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneenablecrosssitescriptingfilter
+Activar el filtro de scripting entre sitios (XSS),Habilitar,Sin enlace
+Activar el modo protegido,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneenableprotectedmode
+Modo protegido,Habilitar,Sin enlace
+Activar el examen de filtro SmartScreen,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowsmartscreenie
+Uso del filtro SmartScreen,Habilitar,Sin enlace
+Persistencia de userdata,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowuserdatapersistence
+Persistencia de userdata,Deshabilitar,Sin enlace
+Los sitios web de zonas de contenido web con menos privilegios pueden navegar a esta zona,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#internetzoneallowlessprivilegedsites
+Los sitios web de zonas de contenido web con menos privilegios pueden navegar a esta zona,Deshabilitar,Sin enlace
+Sitios de intranet: incluir todas las rutas de acceso de red (UNC),deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#includeallnetworkpaths
+Activar la advertencia de error de coincidencia de direcciones de certificado,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#allowcertificateaddressmismatchwarning
+No ejecutar programas antimalware en controles ActiveX,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#intranetzonedonotrunantimalwareagainstactivexcontrols
+No ejecutar programas antimalware en controles ActiveX,Deshabilitar,Sin enlace
+Inicializar y crear scripts de controles ActiveX no marcados como seguros,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#intranetzoneinitializeandscriptactivexcontrols
+Inicializar y crear scripts de controles ActiveX no marcados como seguros,Deshabilitar,Sin enlace
+Permisos de Java,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#intranetzonejavapermissions
+Permisos de Java,alta seguridad,Sin enlace
+No ejecutar programas antimalware en controles ActiveX,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#localmachinezonedonotrunantimalwareagainstactivexcontrols
+No ejecutar programas antimalware en controles ActiveX,Deshabilitar,Sin enlace
+Permisos de Java,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#localmachinezonejavapermissions
+Permisos de Java,Deshabilitar Java,Sin enlace
+Activar el examen de filtro SmartScreen,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#lockeddowninternetzoneallowsmartscreenie
+Uso del filtro SmartScreen,Habilitar,Sin enlace
+Permisos de Java,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#lockeddownintranetjavapermissions
+Permisos de Java,Deshabilitar Java,Sin enlace
+Permisos de Java,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#lockeddownlocalmachinezonejavapermissions
+Permisos de Java,Deshabilitar Java,Sin enlace
+Permisos de Java,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#lockeddownlocalmachinezonejavapermissions
+Permisos de Java,Deshabilitar Java,Sin enlace
+Activar el examen de filtro SmartScreen,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#lockeddownrestrictedsiteszoneallowsmartscreenie
+Uso del filtro SmartScreen,Habilitar,Sin enlace
+Permisos de Java,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#lockeddowntrustedsiteszonejavapermissions
+Permisos de Java,Deshabilitar Java,Sin enlace
+Acceso a orígenes de datos entre dominios,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowaccesstodatasources
+Acceso a orígenes de datos entre dominios,Deshabilitar,Sin enlace
+Permitir scripting activo,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowactivescripting
+Permitir scripting activo,Deshabilitar,Sin enlace
+Permitir comportamientos binarios y de script,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowbinaryandscriptbehaviors
+Permitir comportamientos binarios y de script,Deshabilitar,Sin enlace
+"Permitir operaciones de cortar, copiar o pegar desde el Portapapeles mediante script",habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowcopypasteviascript
+Permitir operaciones de pegado mediante script,Deshabilitar,Sin enlace
+Permitir arrastrar y colocar o copiar y pegar archivos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowdraganddropcopyandpastefiles
+Permitir arrastrar y colocar o copiar y pegar archivos,Deshabilitar,Sin enlace
+Permitir descargas de archivos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowfiledownloads
+Permitir descargas de archivos,Deshabilitar,Sin enlace
+Permitir la carga de archivos XAML,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowloadingofxamlfiles
+Archivos XAML,Deshabilitar,Sin enlace
+Permitir ACTUALIZACIÓN META,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowmetarefresh
+Permitir ACTUALIZACIÓN META,Deshabilitar,Sin enlace
+Permitir que solo los dominios aprobados usen controles ActiveX sin preguntar,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowonlyapproveddomainstouseactivexcontrols
+Permitir solo que los dominios aprobados usen controles ActiveX sin preguntar,Habilitar,Sin enlace
+Permitir que solo los dominios aprobados usen el control ActiveX de TDC,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowonlyapproveddomainstousetdcactivexcontrol
+Permitir solo que los dominios aprobados usen el control ActiveX de TDC,Habilitar,Sin enlace
+Permitir ventanas iniciadas por script sin restricciones de tamaño o posición,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowscriptinitiatedwindows
+Permitir ventanas iniciadas por script sin restricciones de tamaño o posición,Deshabilitar,Sin enlace
+Permitir scripting de controles WebBrowser de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowscriptingofinternetexplorerwebbrowsercontrols
+Control de explorador web de Internet Explorer,Deshabilitar,Sin enlace
+Permitir scriptlets,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowscriptlets
+Scriptlets,Deshabilitar,Sin enlace
+Permitir actualizaciones en la barra de estado mediante script,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowupdatestostatusbarviascript
+Actualizaciones de la barra de estado mediante script,Deshabilitar,Sin enlace
+Permitir que VBScript se ejecute en Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowvbscripttorunininternetexplorer
+Permitir que VBScript se ejecute en Internet Explorer,Deshabilitar,Sin enlace
+Solicitud automática de descargas de archivos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowautomaticpromptingforfiledownloads
+Solicitud automática de descargas de archivos,Deshabilitar,Sin enlace
+No ejecutar programas antimalware en controles ActiveX,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonedonotrunantimalwareagainstactivexcontrols
+No ejecutar programas antimalware en controles ActiveX,Deshabilitar,Sin enlace
+Descarga de controles ActiveX firmados,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonedownloadsignedactivexcontrols
+Descarga de controles ActiveX firmados,Deshabilitar,Sin enlace
+Descarga de controles ActiveX sin firmar,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonedownloadunsignedactivexcontrols
+Descarga de controles ActiveX sin firmar,Deshabilitar,Sin enlace
+Habilitación del arrastre de contenido desde distintos dominios entre ventanas,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneenabledraggingofcontentfromdifferentdomainsacrosswindows
+Habilitación del arrastre de contenido desde distintos dominios entre ventanas,Deshabilitar,Sin enlace
+Habilitación del arrastre de contenido desde distintos dominios dentro de una ventana,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneenabledraggingofcontentfromdifferentdomainswithinwindows
+Habilitación del arrastre de contenido desde distintos dominios dentro de una ventana,Deshabilitar,Sin enlace
+Incluir ruta de acceso local cuando el usuario carga archivos en un servidor,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneincludelocalpathwhenuploadingfilestoserver
+Incluir la ruta de acceso del directorio local al cargar archivos en un servidor,Deshabilitar,Sin enlace
+Inicializar y crear scripts de controles ActiveX no marcados como seguros,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneinitializeandscriptactivexcontrols
+Inicializar y crear scripts de controles ActiveX no marcados como seguros,Deshabilitar,Sin enlace
+Permisos de Java,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonejavapermissions
+Permisos de Java,Deshabilitar Java,Sin enlace
+Inicio de aplicaciones y archivos en un IFRAME,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonelaunchingapplicationsandfilesiniframe
+Inicio de aplicaciones y archivos en un IFRAME,Deshabilitar,Sin enlace
+Opciones de inicio de sesión,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonelogonoptions
+Opciones de inicio de sesión,inicio de sesión anónimo,Sin enlace
+Navegar por ventanas y marcos en distintos dominios,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonenavigatewindowsandframes
+Navegar por ventanas y marcos en distintos dominios,Deshabilitar,Sin enlace
+Ejecución de componentes dependientes de .NET Framework no firmados con Authenticode,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallownetframeworkreliantcomponents
+Ejecución de componentes dependientes de .NET Framework no firmados con Authenticode,Deshabilitar,Sin enlace
+Ejecución de componentes dependientes de .NET Framework firmados con Authenticode,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonerunnetframeworkreliantcomponentssignedwithauthenticode
+Ejecución de componentes dependientes de .NET Framework firmados con Authenticode,Deshabilitar,Sin enlace
+Ejecución de controles y complementos ActiveX,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonerunactivexcontrolsandplugins
+Ejecución de controles y complementos ActiveX,Deshabilitar,Sin enlace
+Scripts de controles ActiveX marcados como seguros para scripting,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonescriptactivexcontrolsmarkedsafeforscripting
+Scripts de controles ActiveX marcados como seguros para scripting,Deshabilitar,Sin enlace
+Scripting de applets de Java,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszonescriptingofjavaapplets
+Scripting de applets de Java,Deshabilitar,Sin enlace
+Mostrar advertencia de seguridad para archivos potencialmente no seguros,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneshowsecuritywarningforpotentiallyunsafefiles
+Inicio de programas y archivos no seguros,Deshabilitar,Sin enlace
+Activar el filtro de scripting entre sitios,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneenablecrosssitescriptingfilter
+Activar el filtro de scripting entre sitios (XSS),habilitado,Sin enlace
+Activar el modo protegido,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneturnonprotectedmode
+Modo protegido,habilitado,Sin enlace
+Activar el examen de filtro SmartScreen,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowsmartscreenie
+Uso del filtro SmartScreen,habilitado,Sin enlace
+Uso del bloqueador de elementos emergentes,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneusepopupblocker
+Uso del bloqueador de elementos emergentes,habilitado,Sin enlace
+Persistencia de userdata,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowuserdatapersistence
+Persistencia de userdata,Deshabilitar,Sin enlace
+Los sitios web de zonas de contenido web con menos privilegios pueden navegar a esta zona,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictedsiteszoneallowlessprivilegedsites
+Los sitios web de zonas de contenido web con menos privilegios pueden navegar a esta zona,Deshabilitar,Sin enlace
+No ejecutar programas antimalware en controles ActiveX,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#trustedsiteszonedonotrunantimalwareagainstactivexcontrols
+No ejecutar programas antimalware en controles ActiveX,Deshabilitar,Sin enlace
+Inicializar y crear scripts de controles ActiveX no marcados como seguros,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#trustedsiteszoneinitializeandscriptactivexcontrols
+Inicializar y crear scripts de controles ActiveX no marcados como seguros,Deshabilitar,Sin enlace
+Permisos de Java,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#trustedsiteszonejavapermissions
+Permisos de Java,alta seguridad,Sin enlace
+Evitar la omisión de advertencias de filtro SmartScreen,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#disablebypassofsmartscreenwarnings
+Evitar omitir las advertencias de filtro SmartScreen sobre los archivos que no se descargan habitualmente de Internet,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#disablebypassofsmartscreenwarningsaboutuncommonfiles
+Impedir la administración del filtro SmartScreen,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#preventmanagingsmartscreenfilter
+Seleccionar modo de filtro smartscreen,Activado,Sin enlace
+Impedir la instalación por usuario de controles ActiveX,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#preventperuserinstallationofactivexcontrols
+Zonas de seguridad: no permitir que los usuarios agreguen o eliminen sitios,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#donotallowuserstoaddsites
+Zonas de seguridad: no permitir que los usuarios cambien las directivas,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#donotallowuserstochangepolicies
+Zonas de seguridad: usar solo la configuración del equipo,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#securityzonesuseonlymachinesettings
+Especificar el uso del servicio de instalador activex para la instalación de controles ActiveX,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#specifyuseofactivexinstallerservice
+Desactivar la detección de bloqueos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#disablecrashdetection
+Desactivar la característica Comprobación de configuración de seguridad,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#disablesecuritysettingscheck
+Activar la característica de autocompletar para nombres de usuario y contraseñas en formularios (usuario),deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#allowautocomplete
+"Quitar el botón ""Ejecutar este tiempo"" para controles ActiveX obsoletos en Internet Explorer",habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#removerunthistimebuttonforoutdatedactivexcontrols
+Desactivar el bloqueo de controles ActiveX obsoletos para Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#donotblockoutdatedactivexcontrols
+Permitir la reserva a SSL 3.0 (Internet Explorer),habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#allowfallbacktossl3
+Permitir reserva insegura para:,sin sitios,Sin enlace
+Procesos de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#consistentmimehandlinginternetexplorerprocesses
+Procesos de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#mimesniffingsafetyfeatureinternetexplorerprocesses
+Procesos de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#mkprotocolsecurityrestrictioninternetexplorerprocesses
+Procesos de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#notificationbarinternetexplorerprocesses
+Procesos de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#protectionfromzoneelevationinternetexplorerprocesses
+Procesos de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictactivexinstallinternetexplorerprocesses
+Procesos de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#restrictfiledownloadinternetexplorerprocesses
+Procesos de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#scriptedwindowsecurityrestrictionsinternetexplorerprocesses
+"Configuración de la característica ""Bloquear a primera vista""",habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-admx-microsoftdefenderantivirus?WT.mc_id=Portal-fx#disableblockatfirstseen
+Activar el examen de procesos siempre que se habilite la protección en tiempo real,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-admx-microsoftdefenderantivirus?WT.mc_id=Portal-fx#realtimeprotection-disablescanonrealtimeenable
+Examen de archivos ejecutables empaquetados,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-admx-microsoftdefenderantivirus?WT.mc_id=Portal-fx#scan-disablepackedexescanning
+Desactivar la corrección rutinaria,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-admx-microsoftdefenderantivirus?WT.mc_id=Portal-fx#disableroutinelytakingaction
+No permitir que se guarden contraseñas,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotedesktopservices?WT.mc_id=Portal-fx#donotallowpasswordsaving
+No permitir redireccionamiento de unidades,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotedesktopservices?WT.mc_id=Portal-fx#donotallowdriveredirection
+Preguntar siempre la contraseña tras la conexión,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotedesktopservices?WT.mc_id=Portal-fx#promptforpassworduponconnection
+Requerir comunicación RPC segura,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotedesktopservices?WT.mc_id=Portal-fx#requiresecurerpccommunication
+Establecer el nivel de cifrado de conexión de cliente,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotedesktopservices?WT.mc_id=Portal-fx#clientconnectionencryptionlevel
+Nivel de cifrado,nivel alto,Sin enlace
+Impedir la descarga de contenedores,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer?WT.mc_id=Portal-fx#disableenclosuredownloading
+Habilitación de notificaciones MPR para el sistema,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-windowslogon?WT.mc_id=Portal-fx#enablemprnotifications
+Inicio de sesión y bloqueo automático del último usuario interactivo después de un reinicio,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-windowslogon?WT.mc_id=Portal-fx#allowautomaticrestartsignon
+Activar el registro de bloques de scripts de PowerShell,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-windowspowershell?WT.mc_id=Portal-fx#turnonpowershellscriptblocklogging
+Eventos de inicio o detención de invocación de bloques de script de registro:,False,Sin enlace
+Permitir autenticación básica,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotemanagement?WT.mc_id=Portal-fx#allowbasicauthentication-service
+Permitir tráfico sin cifrar,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotemanagement?WT.mc_id=Portal-fx#allowunencryptedtraffic-client
+No permitir la autenticación implícita,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotemanagement?WT.mc_id=Portal-fx#disallowdigestauthentication
+Permitir autenticación básica,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotemanagement?WT.mc_id=Portal-fx#allowbasicauthentication-service
+Permitir tráfico sin cifrar,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotemanagement?WT.mc_id=Portal-fx#allowunencryptedtraffic-service
+No permitir que WinRM almacene credenciales de ejecución,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-remotemanagement?WT.mc_id=Portal-fx#disallowstoringofrunascredentials
+Validación de credenciales de auditoría de inicio de sesión de cuenta,Correcto+ Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#accountlogon_auditcredentialvalidation
+Bloqueo de cuenta de auditoría de cierre de sesión de la cuenta,Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#accountlogonlogoff_auditaccountlockout
+Pertenencia a grupos de auditoría de cierre de sesión de cuenta,Correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#accountlogonlogoff_auditgroupmembership
+Inicio de sesión de cierre de sesión de la cuenta Inicio de sesión de auditoría,Correcto+ Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#accountlogonlogoff_auditlogon
+Auditar el cambio de directiva de autenticación,Correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#policychange_auditauthenticationpolicychange
+Auditar cambios en la directiva de auditoría,Correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#policychange_auditpolicychange
+Auditar el acceso a recursos compartidos de archivos,Correcto+ Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#objectaccess_auditfileshare
+Auditar otros eventos de cierre de sesión,Correcto+ Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#accountlogonlogoff_auditotherlogonlogoffevents
+Auditoría de la administración de grupos de seguridad,Correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#accountmanagement_auditsecuritygroupmanagement
+Auditar la extensión del sistema de seguridad,Correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#system_auditsecuritysystemextension
+Auditar inicio de sesión especial,Correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#accountlogonlogoff_auditspeciallogon
+Auditoría de la administración de cuentas de usuario,Correcto+ Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#accountmanagement_audituseraccountmanagement
+Actividad de PNP de auditoría de seguimiento detallado,Correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#detailedtracking_auditpnpactivity
+Creación detallada de procesos de auditoría de seguimiento,Correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#detailedtracking_auditprocesscreation
+Recurso compartido de archivos detallado de auditoría de acceso a objetos,Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#objectaccess_auditdetailedfileshare
+Auditoría de acceso a objetos Otros eventos de acceso a objetos,Correcto+ Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#objectaccess_auditotherobjectaccessevents
+Almacenamiento extraíble de auditoría de acceso a objetos,Correcto+ Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#objectaccess_auditremovablestorage
+Cambio de directiva Auditar el cambio de directiva de nivel de regla de MPSSVC,Correcto+ Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#policychange_auditmpssvcrulelevelpolicychange
+Auditoría de cambios de directiva Otros eventos de cambio de directiva,Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#policychange_auditotherpolicychangeevents
+Uso de privilegios Auditar el uso de privilegios confidenciales,Correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#privilegeuse_auditsensitiveprivilegeuse
+Auditoría del sistema Otros eventos del sistema,Correcto+ Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#system_auditothersystemevents
+Cambio de estado de seguridad de auditoría del sistema,Correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#system_auditsecuritystatechange
+Integridad del sistema de auditoría del sistema,Correcto+ Error,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Audit?WT.mc_id=Portal-fx#system_auditsystemintegrity
+Permitir administrador de contraseñas,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Browser?WT.mc_id=Portal-fx#allowpasswordmanager
+Permitir pantalla inteligente,Permitir,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Browser?WT.mc_id=Portal-fx#allowsmartscreen
+Evitar invalidaciones de errores de certificado,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Browser?WT.mc_id=Portal-fx#preventcerterroroverrides
+Impedir la invalidación del símbolo del sistema de pantalla inteligente,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Browser?WT.mc_id=Portal-fx#preventsmartscreenpromptoverride
+Impedir la invalidación del símbolo del sistema de pantalla inteligente para los archivos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Browser?WT.mc_id=Portal-fx#preventsmartscreenpromptoverrideforfiles
+Permitir acceso directo a memoria,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-dataprotection?WT.mc_id=Portal-fx#allowdirectmemoryaccess
+Permitir el examen de archivos,permitido. Examina los archivos de archivo.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#allowarchivescanning
+Permitir supervisión del comportamiento,permitido. Activa la supervisión del comportamiento en tiempo real.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#allowbehaviormonitoring
+Permitir protección en la nube,permitido. Activa Cloud Protection.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#allowcloudprotection
+Permitir examen completo de la unidad extraíble,permitido. Examina las unidades extraíbles.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#allowfullscanremovabledrivescanning
+Permitir la protección de acceso,permitido.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#allowonaccessprotection
+Permitir supervisión en tiempo real,permitido. Activa y ejecuta el servicio de supervisión en tiempo real.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#allowrealtimemonitoring
+Permitir el examen de todos los archivos y datos adjuntos descargados,permitido.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#allowioavprotection
+Permitir el examen de scripts,permitido.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#allowscriptscanning
+Bloquear la ejecución de scripts potencialmente ofuscados,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Bloquear llamadas API de Win32 desde macros de Office,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Impedir que la aplicación de comunicación de Office cree procesos secundarios,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Impedir que todas las aplicaciones de Office creen procesos secundarios,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Impedir que JavaScript o VBScript inicien contenido ejecutable descargado,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Bloquear procesos que no son de confianza y no firmados que se ejecutan desde USB,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Impedir que Adobe Reader cree procesos secundarios,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Bloquear el robo de credenciales del subsistema de autoridad de seguridad local de Windows,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Impedir que las aplicaciones de Office creen contenido ejecutable,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Impedir que las aplicaciones de Office inserten código en otros procesos,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Bloquear el contenido ejecutable del cliente de correo electrónico y el correo web,Bloquear,https://learn.microsoft.com/es-es/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction?WT.mc_id=Portal-fx
+Nivel de bloque de nube,Alto,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#cloudblocklevel
+Tiempo de espera extendido en la nube,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#cloudextendedtimeout
+Deshabilitar combinación de Administración local,Deshabilitar combinación de Administración local,https://learn.microsoft.com/es-es/windows/client-management/mdm/Defender-csp/?WT.mc_id=Portal-fx#configurationdisablelocaladminmerge
+Habilitación del cálculo de hash de archivos,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/Defender-csp/?WT.mc_id=Portal-fx#configurationenablefilehashcomputation
+Habilitación de la protección de red,habilitado (modo de bloque),https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#enablenetworkprotection
+Ocultar exclusiones de administradores locales,"si habilita esta configuración, los administradores locales ya no podrán ver la lista de exclusión en Seguridad de Windows Aplicación o a través de PowerShell.",https://learn.microsoft.com/es-es/windows/client-management/mdm/Defender-csp/?WT.mc_id=Portal-fx#configurationhideexclusionsfromlocaladmins
+Protección de PUA,protección pua activada. Los elementos detectados están bloqueados. Se mostrarán en la historia junto con otras amenazas.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#puaprotection
+Dirección del examen en tiempo real,supervise todos los archivos (bidireccionales).,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Defender?WT.mc_id=Portal-fx##realtimescandirection
+Enviar consentimiento de ejemplos,envíe todas las muestras automáticamente.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-fx#submitsamplesconsent
+Configuración del inicio de Protección del sistema,Unmanaged Habilita el inicio seguro si es compatible con hardware,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-deviceguard?WT.mc_id=Portal-fx#configuresystemguardlaunch
+Credential Guard,(Habilitado con bloqueo UEFI) Activa Credential Guard con bloqueo UEFI.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-deviceguard?WT.mc_id=Portal-fx#lsacfgflags
+Habilitación de la seguridad basada en virtualización,habilite la seguridad basada en virtualización.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-deviceguard?WT.mc_id=Portal-fx#enablevirtualizationbasedsecurity
+Requerir características de seguridad de la plataforma,activa VBS con arranque seguro.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-deviceguard?WT.mc_id=Portal-fx#requireplatformsecurityfeatures
+Contraseña del dispositivo habilitada,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-devicelock?WT.mc_id=Portal-fx#devicepasswordenabled
+Historial de contraseñas del dispositivo,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-devicelock?WT.mc_id=Portal-fx#devicepasswordhistory
+Longitud mínima de la contraseña del dispositivo,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-devicelock?WT.mc_id=Portal-fx#mindevicepasswordlength
+Directiva de enumeración de dispositivos,Bloquear todo (más restrictivo),https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-dmaguard?WT.mc_id=Portal-fx#deviceenumerationpolicy
+Permitir contenido destacado de Windows (usuario),Permitir,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Experience?WT.mc_id=Portal-fx#allowwindowsspotlight
+Permitir características de consumidor de Windows,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-experience?WT.mc_id=Portal-fx#allowwindowsconsumerfeatures
+Permitir sugerencias de terceros en contenido destacado de Windows (usuario),Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Experience?WT.mc_id=Portal-fx#allowthirdpartysuggestionsinwindowsspotlight
+Habilitación del firewall de red de dominio,True,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoredomainprofileenablefirewall
+Habilitación del Connections de operación correcta del registro,habilitar el registro de Connections correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/Firewall-csp/?WT.mc_id=Portal-fx#mdmstoredomainprofileenablelogsuccessconnections
+Acción de salida predeterminada,Permitir,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoredomainprofiledefaultoutboundaction
+Habilitar paquetes eliminados de registro,habilitar el registro de paquetes eliminados,https://learn.microsoft.com/es-es/windows/client-management/mdm/Firewall-csp/?WT.mc_id=Portal-fx#mdmstoredomainprofileenablelogdroppedpackets
+Deshabilitar notificaciones entrantes,True,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoredomainprofiledisableinboundnotifications
+Tamaño máximo de archivo del registro,16384,https://learn.microsoft.com/es-es/windows/client-management/mdm/Firewall-csp/?WT.mc_id=Portal-fx#mdmstoredomainprofilelogmaxfilesize
+Acción de entrada predeterminada para el perfil de dominio,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoredomainprofiledefaultinboundaction
+Habilitación del firewall de red privada,True,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoreprivateprofileenablefirewall
+Tamaño máximo de archivo del registro,16384,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoreprivateprofilelogmaxfilesize
+Acción de entrada predeterminada para perfil privado,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoreprivateprofiledefaultinboundaction
+Habilitación del Connections de operación correcta del registro,habilitar el registro de Connections correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoreprivateprofileenablelogsuccessconnections
+Habilitar paquetes eliminados de registro,habilitar el registro de paquetes eliminados,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoreprivateprofileenablelogdroppedpackets
+Acción de salida predeterminada,Permitir,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoreprivateprofiledefaultoutboundaction
+Deshabilitar notificaciones entrantes,True,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstoreprivateprofiledisableinboundnotifications
+Habilitación del firewall de red pública,True,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstorepublicprofileenablefirewall
+Habilitar paquetes eliminados de registro,habilitar el registro de paquetes eliminados,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstorepublicprofileenablelogdroppedpackets
+Tamaño máximo de archivo del registro,16384,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstorepublicprofilelogmaxfilesize
+Acción de salida predeterminada,Permitir,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstorepublicprofiledefaultoutboundaction
+Deshabilitar notificaciones entrantes,True,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstorepublicprofiledisableinboundnotifications
+Acción de entrada predeterminada para el perfil público,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstorepublicprofiledefaultinboundaction
+Permitir combinación de directivas locales,False,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstorepublicprofileallowlocalpolicymerge
+Habilitación del Connections de operación correcta del registro,habilitar el registro de Connections correcto,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstorepublicprofileenablelogsuccessconnections
+Permitir combinación de directivas de IPsec local,False,https://learn.microsoft.com/es-es/windows/client-management/mdm/firewall-csp?WT.mc_id=Portal-fx#mdmstorepublicprofileallowlocalipsecpolicymerge
+Habilitar inicios de sesión de invitado no seguros,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LanmanWorkstation?WT.mc_id=Portal-fx#enableinsecureguestlogons
+Las cuentas limitan el uso de contraseñas en blanco en la cuenta local solo para el inicio de sesión en la consola,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly
+Límite de inactividad de la máquina de inicio de sesión interactivo,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#interactivelogon_machineinactivitylimit
+Comportamiento de eliminación de tarjeta inteligente de inicio de sesión interactivo,Bloquear estación de trabajo,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#interactivelogon_smartcardremovalbehavior
+El cliente de Microsoft Network firma digitalmente las comunicaciones siempre,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#microsoftnetworkclient_digitallysigncommunicationsalways
+El cliente de red de Microsoft envía una contraseña sin cifrar a servidores SMB de terceros,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers
+Microsoft Network Server firma digitalmente las comunicaciones siempre,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#microsoftnetworkserver_digitallysigncommunicationsalways
+El acceso de red no permite la enumeración anónima de cuentas SAM,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#networkaccess_donotallowanonymousenumerationofsamaccounts
+El acceso a la red no permite la enumeración anónima de cuentas y recursos compartidos de Sam,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#networkaccess_donotallowanonymousenumerationofsamaccountsandshares
+El acceso de red restringe el acceso anónimo a canalizaciones y recursos compartidos con nombre,Habilitación,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#networkaccess-restrictanonymousaccesstonamedpipesandshares
+Acceso de red Restringir a los clientes permitidos realizar llamadas remotas a SAM,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#networkaccess_restrictclientsallowedtomakeremotecallstosam
+Seguridad de red No almacenar el valor hash del administrador de LAN en el siguiente cambio de contraseña,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange
+Nivel de autenticación de Network Security LAN Manager,enviar solo respuestas LM y NTLMv2. Denegar LM y NTLM,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#networksecurity_lanmanagerauthenticationlevel
+Seguridad de red Seguridad mínima de la sesión para clientes basados en NTLMSSP,requerir NTLM y cifrado de 128 bits,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#networksecurity_minimumsessionsecurityforntlmsspbasedclients
+Seguridad de red Seguridad mínima de la sesión para servidores basados en NTLMSSP,requerir NTLM y cifrado de 128 bits,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#networksecurity_minimumsessionsecurityforntlmsspbasedservers
+Comportamiento del control de cuentas de usuario de la solicitud de elevación para administradores,solicitar consentimiento en el escritorio seguro,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#useraccountcontrol_behavioroftheelevationpromptforadministrators
+Comportamiento del control de cuentas de usuario de la solicitud de elevación para usuarios estándar,denegar automáticamente las solicitudes de elevación,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#useraccountcontrol_behavioroftheelevationpromptforstandardusers
+Control de cuentas de usuario Detectar instalaciones de aplicaciones y solicitar elevación,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#useraccountcontrol-detectapplicationinstallationsandpromptforelevation
+El control de cuentas de usuario solo eleva las aplicaciones de acceso a la interfaz de usuario instaladas en ubicaciones seguras,habilitado: la aplicación se ejecuta con integridad UIAccess solo si reside en una ubicación segura.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#useraccountcontrol-onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations
+Control de cuentas de usuario Ejecutar todos los administradores en Administración modo de aprobación,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#useraccountcontrol_runalladministratorsinadminapprovalmode
+Uso del control de cuentas de usuario Administración modo de aprobación,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#useraccountcontrol_useadminapprovalmode
+Control de cuentas de usuario Virtualizar errores de escritura de archivos y registro en ubicaciones por usuario,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions?WT.mc_id=Portal-fx#useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations
+Configuración del proceso protegido de Lsa,habilitado con bloqueo UEFI. LSA se ejecutará como proceso protegido y esta configuración está bloqueada por UEFI.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-lsa#configurelsaprotectedprocess
+Permitir DVR de juegos,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-ApplicationManagement?WT.mc_id=Portal-fx#allowgamedvr
+MSI Permitir el control de usuario sobre la instalación,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-ApplicationManagement?WT.mc_id=Portal-fx#msiallowusercontroloverinstall
+Instalación de MSI siempre con privilegios elevados,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-ApplicationManagement?WT.mc_id=Portal-fx#msialwaysinstallwithelevatedprivileges
+Configuración de Microsoft Defender SmartScreen,habilitado,Sin enlace
+Impedir la omisión de Microsoft Defender solicitudes de SmartScreen para sitios,habilitado,Sin enlace
+Permitir que las aplicaciones se activen con la voz por encima del bloqueo,forzar denegación. Las aplicaciones de Windows no se pueden activar por voz mientras la pantalla está bloqueada y los usuarios no pueden cambiarla.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Privacy?WT.mc_id=Portal-fx#letappsactivatewithvoiceabovelock
+Permitir indexación de almacenes o elementos cifrados,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-Search?WT.mc_id=Portal-fx#allowindexingencryptedstoresoritems
+Habilitar pantalla inteligente en shell,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-smartscreen?WT.mc_id=Portal-fx#enablesmartscreeninshell
+Impedir la invalidación de archivos en shell,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-smartscreen?WT.mc_id=Portal-fx#preventoverrideforfilesinshell
+Notificar malintencionada,habilitado,Sin enlace
+Notificación de la reutilización de contraseñas,habilitado,Sin enlace
+Notificar a una aplicación no segura,habilitado,Sin enlace
+Servicio habilitado,habilitado,Sin enlace
+Configuración del modo de inicio del servicio de administración de accesorios de Xbox,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-SystemServices?WT.mc_id=Portal-fx#configurexboxaccessorymanagementservicestartupmode
+Configuración del modo de inicio del servicio Administrador de autenticación de Xbox Live,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-SystemServices?WT.mc_id=Portal-fx#configurexboxliveauthmanagerservicestartupmode
+Configuración del modo de inicio del servicio Guardar juego de Xbox Live,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-SystemServices?WT.mc_id=Portal-fx#configurexboxlivegamesaveservicestartupmode
+Configuración del modo de inicio del servicio de redes de Xbox Live,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-SystemServices?WT.mc_id=Portal-fx#configurexboxlivenetworkingservicestartupmode
+Habilitar la tarea Guardar juego de Xbox,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-TaskScheduler?WT.mc_id=Portal-fx#enablexboxgamesavetask
+Acceso desde la red,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#accessfromnetwork
+Permitir inicio de sesión local,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#allowlocallogon
+Archivos y directorios de copia de seguridad,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#backupfilesanddirectories
+Creación de objetos globales,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#createglobalobjects
+Crear archivo de página,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#createpagefile
+Depurar programas,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#debugprograms
+Denegar el acceso desde la red,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#denyaccessfromnetwork
+Denegar el inicio de sesión de Servicios de Escritorio remoto,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#denyremotedesktopserviceslogon
+Suplantar cliente,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#impersonateclient
+Cargar los controladores de dispositivo de descarga,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#loadunloaddevicedrivers
+Administración de registros de auditoría y seguridad,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#manageauditingandsecuritylog
+Administrar volumen,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#managevolume
+Modificación del entorno de firmware,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#modifyfirmwareenvironment
+Proceso único de perfil,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#profilesingleprocess
+Apagado remoto,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#remoteshutdown
+Restaurar archivos y directorios,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#restorefilesanddirectories
+Tomar posesión,configurado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-UserRights?WT.mc_id=Portal-fx#takeownership
+Integridad del código aplicado del hipervisor,(Habilitado con bloqueo UEFI) Activa Hypervisor-Protected integridad de código con bloqueo UEFI.,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-VirtualizationBasedTechnology?WT.mc_id=Portal-fx#hypervisorenforcedcodeintegrity
+Permitir la conexión automática a zonas activas de Wi-Fi Sense,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-wifi?WT.mc_id=Portal-fx#allowautoconnecttowifisensehotspots
+Permitir el uso compartido de Internet,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-wifi?WT.mc_id=Portal-fx#allowinternetsharing
+Las características faciales usan la protección contra la suplantación mejorada,true,https://learn.microsoft.com/es-es/windows/client-management/mdm/PassportForWork-csp/?WT.mc_id=Portal-fx#devicebiometricsfacialfeaturesuseenhancedantispoofing
+Permitir Área de trabajo de Windows Ink,"el área de trabajo de Ink está habilitada (la característica está activada), pero el usuario no puede acceder a ella por encima de la pantalla de bloqueo.",https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-WindowsInkWorkspace?WT.mc_id=Portal-fx#allowwindowsinkworkspace
+Directorio de copia de seguridad,base: copia de seguridad de la contraseña solo en Azure AD,https://learn.microsoft.com/es-es/windows/client-management/mdm/LAPS-csp/?WT.mc_id=Portal-fx#policiesbackupdirectory
+Activar aplicaciones por voz desde la pantalla bloqueada,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-privacy
+Bloquear la presentación de notificaciones del sistema,Sí,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-abovelock#abovelock-allowtoasts
+Cuentas de Microsoft opcionales para aplicaciones de Microsoft Store,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-appruntime#appruntime-allowmicrosoftaccountstobeoptional
+Bloquear instalaciones de aplicaciones con privilegios elevados,Sí,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-msialwaysinstallwithelevatedprivileges
+Bloquear el control de usuario sobre las instalaciones,Sí,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-msiallowusercontroloverinstall
+Bloquear DVR de juego (solo escritorio),Sí,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowgamedvr
+Validación de credenciales de auditoría de inicio de sesión de cuenta (dispositivo):,Correcto y Error,Sin enlace
+Auditar el inicio de sesión de la cuenta Del servicio de autenticación Kerberos (dispositivo):,Ninguno,Sin enlace
+la cuenta de auditoría de cierre de sesión de la cuenta (dispositivo):,Error,Sin enlace
+Pertenencia a grupos de auditoría de cierre de sesión de cuenta (dispositivo):,Correcto,Sin enlace
+Inicio de sesión de inicio de sesión de cuenta Inicio de sesión de auditoría (dispositivo):,Correcto y Error,Sin enlace
+Auditar otros eventos de cierre de sesión de inicio de sesión (dispositivo):,Correcto y Error,Sin enlace
+Auditar inicio de sesión especial (dispositivo):,Correcto,Sin enlace
+Auditar la administración de grupos de seguridad (dispositivo):,Correcto,Sin enlace
+Auditar la administración de cuentas de usuario (dispositivo):,Correcto y Error,Sin enlace
+Actividad PNP de auditoría de seguimiento detallado (dispositivo):,Correcto,Sin enlace
+Creación detallada de procesos de auditoría de seguimiento (dispositivo):,Correcto,Sin enlace
+Recurso compartido de archivos detallado (dispositivo) de auditoría de acceso a objetos,Error,Sin enlace
+Auditar el acceso al recurso compartido de archivos (dispositivo):,Correcto y Error,Sin enlace
+Auditoría de acceso a objetos Otros eventos de acceso a objetos (dispositivo):,Correcto y Error,Sin enlace
+Auditoría de acceso a objetos Almacenamiento extraíble (dispositivo):,Correcto y Error,Sin enlace
+Auditar el cambio de directiva de autenticación (dispositivo):,Correcto,Sin enlace
+Cambio de directiva Auditar el cambio de directiva de nivel de regla (dispositivo) de MPSSVC,Correcto y Error,Sin enlace
+Auditoría de cambios de directiva Auditar otros eventos de cambio de directiva (dispositivo):,Error,Sin enlace
+Auditar cambios en la directiva de auditoría (dispositivo):,Correcto,Sin enlace
+Uso de privilegios Auditar uso de privilegios confidenciales (dispositivo):,Correcto y Error,Sin enlace
+Auditoría del sistema Otros eventos del sistema (dispositivo):,Correcto y Error,Sin enlace
+Cambio de estado de seguridad (dispositivo) de auditoría del sistema,Correcto,Sin enlace
+Audit Security System Extension (Device),Correcto,Sin enlace
+Integridad del sistema de auditoría del sistema (dispositivo):,Correcto y Error,Sin enlace
+Comportamiento de ejecución automática predeterminado de reproducción automática,no ejecutar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-autoplay#autoplay-setdefaultautorunbehavior
+Modo de reproducción automática,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-autoplay#autoplay-turnoffautoplay
+Bloquear reproducción automática para dispositivos que no son de volumen,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-autoplay#autoplay-disallowautoplayfornonvolumedevices
+Directiva de unidad extraíble de BitLocker,Configurar,https://go.microsoft.com/fwlink/?linkid=2067140
+Bloquear el acceso de escritura a unidades de datos extraíbles no protegidas por BitLocker,Sí,https://go.microsoft.com/fwlink/?linkid=872540
+Bloquear administrador de contraseñas,Sí,https://go.microsoft.com/fwlink/?linkid=2067128
+Requerir SmartScreen para Microsoft Edge (versión anterior),Sí,https://go.microsoft.com/fwlink/?linkid=2067029
+Bloquear el acceso a sitios malintencionados,Sí,https://go.microsoft.com/fwlink/?linkid=2067040
+Bloquear la descarga de archivos no comprobados,Sí,https://go.microsoft.com/fwlink/?linkid=2067023
+Impedir que el usuario invalide los errores de certificado,Sí,https://go.microsoft.com/fwlink/?linkid=2067126
+Configure el acceso seguro a las rutas de acceso UNC,configure Windows para que solo permita el acceso a las rutas UNC especificadas después de cumplir los requisitos de seguridad adicionales,https://go.microsoft.com/fwlink/?linkid=2067243
+Lista de rutas UNC protegidas,no configurado de forma predeterminada. Agregue manualmente una o varias rutas de acceso UNC protegidas.,Sin enlace
+Bloquear la descarga de controladores de impresión a través de HTTP,habilitado,https://go.microsoft.com/fwlink/?linkid=2067141
+Bloquear la descarga de Internet para los asistentes de publicación web y pedidos en línea,habilitado,https://go.microsoft.com/fwlink/?linkid=2067136
+Delegación remota de host de credenciales no exportables,habilitado,https://go.microsoft.com/fwlink/?linkid=2067103
+Enumerar administradores,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067021
+Bloquear el acceso directo a la memoria,Sin valor predeterminado,https://go.microsoft.com/fwlink/?linkid=2067031
+Seguridad basada en virtualización,habilitar VBS con arranque seguro,Sin enlace
+Habilitación de la seguridad basada en virtualización,Sí,https://go.microsoft.com/fwlink/?linkid=2067066
+Iniciar protección del sistema,habilitado,Sin enlace
+Activar credential guard,habilitar con bloqueo UEFI,https://go.microsoft.com/fwlink/?linkid=872424
+Bloquee la instalación del dispositivo de hardware mediante las clases de instalación,Sí,https://go.microsoft.com/fwlink/?linkid=2067048
+Quitar dispositivos de hardware coincidentes,Sí,Sin enlace
+Lista de bloques,no configurado de forma predeterminada. Agregue manualmente uno o varios identificadores.,Sin enlace
+Instalación de dispositivos de hardware por identificadores de dispositivo,Bloquear la instalación del dispositivo de hardware,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceids
+Quitar dispositivos de hardware coincidentes,Sí,Sin enlace
+Identificadores de dispositivo de hardware que están bloqueados,Sí,Sin enlace
+Instalación de dispositivos de hardware por clases de instalación,Bloquear la instalación del dispositivo de hardware,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdevicesetupclasses
+Quitar dispositivos de hardware coincidentes,no hay ninguna configuración predeterminada,Sin enlace
+Identificadores de dispositivo de hardware que están bloqueados,no hay ninguna configuración predeterminada,Sin enlace
+Requerir contraseña,Sí,https://go.microsoft.com/fwlink/?linkid=2067049
+Contraseña necesaria,alfanumérico,https://go.microsoft.com/fwlink/?linkid=2067027
+Expiración de contraseña (días):,60,https://go.microsoft.com/fwlink/?linkid=2067028
+Recuento mínimo de caracteres de contraseña,3,https://go.microsoft.com/fwlink/?linkid=2067055
+Impedir la reutilización de contraseñas anteriores,24,https://go.microsoft.com/fwlink/?linkid=2066795
+Longitud mínima de la contraseña,8,https://go.microsoft.com/fwlink/?linkid=2067024
+Número de errores de inicio de sesión antes de limpiar el dispositivo,10,https://go.microsoft.com/fwlink/?linkid=2067030
+Bloquear contraseñas sencillas,Sí,https://go.microsoft.com/fwlink/?linkid=2067127
+Antigüedad mínima de la contraseña en días,1,https://go.microsoft.com/fwlink/?linkid=2067022
+Impedir el uso de la cámara,habilitado,https://go.microsoft.com/fwlink/?linkid=2067052
+Impedir presentación con diapositivas,habilitado,https://go.microsoft.com/fwlink/?linkid=2067105
+Enumeración de dispositivos externos incompatibles con Kernel DMA Protection,Bloquear todo,Sin enlace
+Tamaño máximo de archivo del registro de aplicaciones en KB,32768,https://go.microsoft.com/fwlink/?linkid=2067125
+Tamaño máximo de archivo del registro del sistema en KB,32768,https://go.microsoft.com/fwlink/?linkid=2066798
+Tamaño máximo de archivo del registro de seguridad en KB,196608,https://go.microsoft.com/fwlink/?linkid=2067042
+Bloquear contenido destacado de Windows,Sí,https://go.microsoft.com/fwlink/?linkid=2067037
+Bloquear sugerencias de terceros en Contenido destacado de Windows,no configurado,https://go.microsoft.com/fwlink/?linkid=2067045
+Bloquear características específicas del consumidor,no configurado,https://go.microsoft.com/fwlink/?linkid=2067054
+Cargar XML,se proporciona xml de ejemplo,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-exploitguard#exploitguard-exploitprotectionsettings
+Bloquear la prevención de ejecución de datos,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067043
+Bloquear la terminación del montón en caso de daños,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067107
+Dominio de perfil de firewall,Configurar,https://go.microsoft.com/fwlink/?linkid=2066796
+Conexiones entrantes bloqueadas,Sí,https://go.microsoft.com/fwlink/?linkid=872564
+Conexiones salientes necesarias,Sí,https://aka.ms/intune-firewall-outboundaction
+Notificaciones entrantes bloqueadas,Sí,https://go.microsoft.com/fwlink/?linkid=872563
+Firewall habilitado,permitido,https://go.microsoft.com/fwlink/?linkid=872558
+Perfil de firewall privado,Configurar,https://go.microsoft.com/fwlink/?linkid=2067041
+Conexiones entrantes bloqueadas,Sí,https://go.microsoft.com/fwlink/?linkid=872564
+Conexiones salientes necesarias,Sí,https://aka.ms/intune-firewall-outboundaction
+Notificaciones entrantes bloqueadas,Sí,https://go.microsoft.com/fwlink/?linkid=872563
+Firewall habilitado,permitido,https://go.microsoft.com/fwlink/?linkid=872558
+Perfil de firewall público,Configurar,https://learn.microsoft.com/es-es/openspecs/windows_protocols/ms-fasp/7704e238-174d-4a5e-b809-5f3787dd8acc
+Conexiones entrantes bloqueadas,Sí,https://go.microsoft.com/fwlink/?linkid=872564
+Conexiones salientes necesarias,Sí,https://aka.ms/intune-firewall-outboundaction
+Notificaciones entrantes bloqueadas,Sí,https://go.microsoft.com/fwlink/?linkid=872563
+Firewall habilitado,permitido,https://go.microsoft.com/fwlink/?linkid=872558
+Reglas de seguridad de conexión de la directiva de grupo no combinadas,Sí,https://go.microsoft.com/fwlink/?linkid=872568
+Reglas de directiva de la directiva de grupo no combinadas,Sí,https://go.microsoft.com/fwlink/?linkid=872567
+Compatibilidad con el cifrado de Internet Explorer,TLS v1.1,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#disableencryptionsupport
+Internet Explorer evita la administración del filtro de pantalla inteligente,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowsmartscreenie
+Script de zona restringida de Internet Explorer Controles Active X marcados como seguros para scripting,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneinitializeandscriptactivexcontrols
+Descargas de archivos de zona restringida de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowfiledownloads
+Advertencia de error de coincidencia de direcciones de certificado de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#allowcertificateaddressmismatchwarning
+Modo protegido mejorado de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#allowenhancedprotectedmode
+Reserva de Internet Explorer a SSL3,no hay sitios,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#allowfallbacktossl3
+Software de Internet Explorer cuando la firma no es válida,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#allowsoftwarewhensignatureisinvalid
+Internet Explorer comprueba la revocación de certificados de servidor,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#checkservercertificaterevocation
+Internet Explorer comprueba las firmas en los programas descargados,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#checksignaturesondownloadedprograms
+Internet Explorer procesa un control MIME coherente,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#consistentmimehandlinginternetexplorerprocesses
+Internet Explorer omite las advertencias de pantalla inteligente,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#disablebypassofsmartscreenwarnings
+Internet Explorer omite advertencias de pantalla inteligente sobre archivos poco comunes,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#disablebypassofsmartscreenwarningsaboutuncommonfiles
+Detección de bloqueos de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#disablecrashdetection
+Descarga de contenedores de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#disableenclosuredownloading
+Internet Explorer omite los errores de certificado,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#disableignoringcertificateerrors
+Internet Explorer deshabilita los procesos en modo protegido mejorado,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#disableprocessesinenhancedprotectedmode
+Comprobación de la configuración de seguridad de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#disablesecuritysettingscheck
+Controles Active X de Internet Explorer en modo protegido,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#donotallowactivexcontrolsinprotectedmode
+Usuarios de Internet Explorer que agregan sitios,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#donotallowuserstoaddsites
+Directivas de cambio de usuarios de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#donotallowuserstochangepolicies
+Internet Explorer bloquea controles Active X obsoletos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#donotblockoutdatedactivexcontrols
+Internet Explorer incluye todas las rutas de acceso de red,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#includeallnetworkpaths
+Acceso de zona de Internet de Internet Explorer a orígenes de datos,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowaccesstodatasources
+Internet Explorer internet zone automatic prompt for file downloads (Solicitud automática de la zona de Internet de Internet Explorer para descargas de archivos,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowautomaticpromptingforfiledownloads
+Internet Explorer internet zone copy and paste via script (Copiar y pegar la zona de Internet de Internet Explorer mediante script,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowcopypasteviascript
+Arrastre y coloque o copie y pegue archivos en la zona de Internet de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowdraganddropcopyandpastefiles
+Sitios con menos privilegios de la zona de Internet de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowlessprivilegedsites
+Carga de archivos XAML en la zona de Internet de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowloadingofxamlfiles
+Componentes dependientes de .NET Framework de la zona de Internet de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallownetframeworkreliantcomponents
+La zona de Internet de Internet Explorer permite que solo los dominios aprobados usen controles ActiveX,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowonlyapproveddomainstouseactivexcontrols
+La zona de Internet de Internet Explorer solo permite que los dominios aprobados usen controles ActiveX de tdc,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowonlyapproveddomainstousetdcactivexcontrol
+Scripting de zona de Internet de Internet Explorer de controles de explorador web,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowscriptingofinternetexplorerwebbrowsercontrols
+Ventanas iniciadas por script de zona de Internet de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowscriptinitiatedwindows
+Scripts de zona de Internet de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowscriptlets
+Pantalla inteligente de la zona de Internet de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowsmartscreenie
+Internet Explorer internet zone updates to status bar via script (Actualizaciones de la zona de Internet de Internet Explorer en la barra de estado mediante script,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowupdatestostatusbarviascript
+Persistencia de los datos de usuario de la zona de Internet de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowuserdatapersistence
+La zona de Internet de Internet de Internet Explorer permite que VBscript se ejecute,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneallowvbscripttorunininternetexplorer
+La zona de Internet de Internet Explorer no ejecuta antimalware en los controles ActiveX,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzonedonotrunantimalwareagainstactivexcontrols
+Internet Explorer internet zone download signed ActiveX controls (Descarga de controles ActiveX firmados en la zona internet de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzonedownloadsignedactivexcontrols
+Internet Explorer internet zone download unsigned ActiveX controls,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzonedownloadunsignedactivexcontrols
+Filtro de scripting entre sitios de la zona de Internet de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneenablecrosssitescriptingfilter
+"En la zona de Internet de Internet Explorer, arrastre el contenido desde distintos dominios a través de las ventanas",deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows
+Internet Explorer internet zone drag content from different domains within windows (Arrastrar contenido de la zona de Internet de Internet Explorer desde distintos dominios dentro de Windows,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneenabledraggingofcontentfromdifferentdomainswithinwindows
+Modo protegido de zona de Internet de Internet Explorer,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneenableprotectedmode
+La zona de Internet de Internet de Internet Explorer incluye la ruta de acceso local al cargar archivos en el servidor,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneincludelocalpathwhenuploadingfilestoserver
+Internet Explorer internet zone initialize and script Active X controls not marked as safe,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneinitializeandscriptactivexcontrols
+Permisos de Java de la zona de Internet de Internet Explorer,deshabilitar java,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzonejavapermissions
+Internet Explorer Internet Zone inicia aplicaciones y archivos en un iframe,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzonelaunchingapplicationsandfilesiniframe
+Opciones de inicio de sesión de la zona de Internet de Internet Explorer,preguntar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzonelogonoptions
+La zona de Internet de Internet Explorer navega por ventanas y marcos en distintos dominios,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzonenavigatewindowsandframes
+Internet Explorer internet zone run .NET Framework reliant components signed with Authenticode,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzonerunnetframeworkreliantcomponentssignedwithauthenticode
+Advertencia de seguridad de la zona de Internet de Internet Explorer para archivos potencialmente no seguros,preguntar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneshowsecuritywarningforpotentiallyunsafefiles
+Bloqueador de elementos emergentes de la zona de Internet de Internet Explorer,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#internetzoneusepopupblocker
+La zona de intranet de Internet Explorer no ejecuta antimalware en los controles Active X,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#intranetzonedonotrunantimalwareagainstactivexcontrols
+La zona de intranet de Internet Explorer inicializa y crea scripts de controles Active X no marcados como seguros,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#intranetzoneinitializeandscriptactivexcontrols
+Permisos de Java de la zona de intranet de Internet Explorer,alta seguridad,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#intranetzonejavapermissions
+La zona de máquina local de Internet Explorer no ejecuta antimalware en los controles Active X,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#localmachinezonedonotrunantimalwareagainstactivexcontrols
+Permisos de Java de la zona de máquina local de Internet Explorer,deshabilitar java,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#localmachinezonejavapermissions
+Internet Explorer bloqueó la pantalla inteligente de la zona de Internet,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#lockeddowninternetzoneallowsmartscreenie
+Internet Explorer bloqueó los permisos de Java de zona de intranet,deshabilitar java,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#lockeddownintranetjavapermissions
+Internet Explorer bloqueó los permisos de Java de la zona de máquina local,deshabilitar java,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#lockeddownlocalmachinezonejavapermissions
+Internet Explorer bloqueó la pantalla inteligente de zona restringida,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#lockeddownrestrictedsiteszoneallowsmartscreenie
+Internet Explorer bloqueó los permisos de Java de zona restringida,Deshabilitar Java,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#lockeddownrestrictedsiteszonejavapermissions
+Internet Explorer bloqueó los permisos java de la zona de confianza,deshabilitar java,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#lockeddowntrustedsiteszonejavapermissions
+Internet Explorer procesa la característica de seguridad de examen MIME,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#mimesniffingsafetyfeatureinternetexplorerprocesses
+Internet Explorer procesa la restricción de seguridad del protocolo MK,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#mkprotocolsecurityrestrictioninternetexplorerprocesses
+Internet Explorer procesa la barra de notificaciones,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#notificationbarinternetexplorerprocesses
+Internet Explorer impide la instalación por usuario de controles Active X,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#preventperuserinstallationofactivexcontrols
+Internet Explorer procesa la protección contra la elevación de zona,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#protectionfromzoneelevationinternetexplorerprocesses
+Botón Quitar ejecución de Internet Explorer para controles Active X obsoletos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#removerunthistimebuttonforoutdatedactivexcontrols
+Los procesos de Internet Explorer restringen la instalación de Active X,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictactivexinstallinternetexplorerprocesses
+Acceso de zona restringida de Internet Explorer a orígenes de datos,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowaccesstodatasources
+Scripting activo de zona restringida de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowactivescripting
+Solicitud automática de la zona restringida de Internet Explorer para descargas de archivos,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowautomaticpromptingforfiledownloads
+Comportamientos binarios y de script de la zona restringida de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowbinaryandscriptbehaviors
+Copia y pegado de zona restringida de Internet Explorer mediante script,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowcopypasteviascript
+Arrastre y coloque o copie y pegue archivos en la zona restringida de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowdraganddropcopyandpastefiles
+Sitios con menos privilegios de la zona restringida de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowlessprivilegedsites
+Carga de archivos XAML en la zona restringida de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowloadingofxamlfiles
+Actualización de meta de zona restringida de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowmetarefresh
+Componentes dependientes de .NET Framework de zona restringida de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallownetframeworkreliantcomponents
+La zona restringida de Internet Explorer solo permite que los dominios aprobados usen controles Active X,habilitado,https://go.microsoft.com/fwlink/?linkid=2067233
+La zona restringida de Internet Explorer solo permite que los dominios aprobados usen controles Active X de tdc,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowonlyapproveddomainstousetdcactivexcontrol
+Scripting de zona restringida de Internet Explorer de controles de explorador web,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowscriptingofinternetexplorerwebbrowsercontrols
+Ventanas iniciadas por el script de zona restringida de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowscriptinitiatedwindows
+Scripts de zona restringida de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowscriptlets
+Pantalla inteligente de zona restringida de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowsmartscreenie
+Internet Explorer restricted zone updates to status bar via script (Actualizaciones de zona restringida de Internet Explorer a la barra de estado mediante script,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowupdatestostatusbarviascript
+Persistencia de datos de usuario de la zona restringida de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowuserdatapersistence
+La zona restringida de Internet Explorer permite que vbscript se ejecute,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneallowvbscripttorunininternetexplorer
+La zona restringida de Internet Explorer no ejecuta antimalware en los controles Active X,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszonedonotrunantimalwareagainstactivexcontrols
+Descarga de controles Active X firmados en la zona restringida de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszonedownloadsignedactivexcontrols
+Internet Explorer restricted zone download unsigned Active X controls (Descarga de controles Active X sin signo en la zona restringida de Internet Explorer,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszonedownloadunsignedactivexcontrols
+Filtro de scripting entre sitios de zona restringida de Internet Explorer,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneenablecrosssitescriptingfilter
+Internet Explorer restricted zone drag content from different domains across windows (Arrastrar contenido de diferentes dominios entre ventanas):,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneenabledraggingofcontentfromdifferentdomainsacrosswindows
+Internet Explorer restricted zone drag content from different domains within windows (Arrastrar contenido de la zona restringida de Internet Explorer desde distintos dominios dentro de windows,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneenabledraggingofcontentfromdifferentdomainswithinwindows
+La zona restringida de Internet Explorer incluye la ruta de acceso local al cargar archivos en el servidor,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneincludelocalpathwhenuploadingfilestoserver
+Internet Explorer restricted zone initialize and script Active X controls not marked as safe (Inicialización de zona restringida de Internet Explorer y script de controles Active X no marcados como seguros,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneinitializeandscriptactivexcontrols
+Permisos de Java de zona restringida de Internet Explorer,deshabilitar java,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszonejavapermissions
+Inicio de aplicaciones y archivos en una zona restringida de Internet Explorer en un iFrame,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszonelaunchingapplicationsandfilesiniframe
+Opciones de inicio de sesión de zona restringida de Internet Explorer,anónimo,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszonelogonoptions
+La zona restringida de Internet Explorer navega por ventanas y marcos en distintos dominios,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszonenavigatewindowsandframes
+La zona restringida de Internet Explorer ejecuta controles y complementos Active X,deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszonerunactivexcontrolsandplugins
+"En la zona restringida de Internet Explorer, ejecute componentes dependientes de .NET Framework firmados con Authenticode",Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszonerunnetframeworkreliantcomponentssignedwithauthenticode
+Scripting de zona restringida de Internet Explorer de applets de Java,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszonescriptingofjavaapplets
+Advertencia de seguridad de zona restringida de Internet Explorer para archivos potencialmente no seguros,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneshowsecuritywarningforpotentiallyunsafefiles
+Modo protegido por zona restringida de Internet Explorer,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneturnonprotectedmode
+Bloqueador emergente de zona restringida de Internet Explorer,Habilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictedsiteszoneusepopupblocker
+Los procesos de Internet Explorer restringen la descarga de archivos,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#restrictfiledownloadinternetexplorerprocesses
+Internet Explorer procesa restricciones de seguridad de ventana con scripts,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#scriptedwindowsecurityrestrictionsinternetexplorerprocesses
+Las zonas de seguridad de Internet Explorer solo usan la configuración del equipo,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#securityzonesuseonlymachinesettings
+Internet Explorer usa el servicio de instalador Active X,habilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#specifyuseofactivexinstallerservice
+La zona de confianza de Internet Explorer no ejecuta antimalware en los controles Active X,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#trustedsiteszonedonotrunantimalwareagainstactivexcontrols
+Internet Explorer trusted zone initialize and script Active X controls not marked as safe (Inicialización de la zona de confianza de Internet Explorer y script de controles Active X no marcados como seguros,Deshabilitar,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#trustedsiteszoneinitializeandscriptactivexcontrols
+Permisos de Java de la zona de confianza de Internet Explorer,alta seguridad,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#trustedsiteszonejavapermissions
+Finalización automática de Internet Explorer,deshabilitado,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-internetexplorer#allowautocomplete
+Bloquear el inicio de sesión remoto con contraseña en blanco,Sí,https://go.microsoft.com/fwlink/?linkid=2067219
+Minutos de inactividad de la pantalla de bloqueo hasta que se activa el protector de pantalla,15,https://go.microsoft.com/fwlink/?linkid=2067210
+Comportamiento de eliminación de tarjeta inteligente,Bloquear estación de trabajo,https://go.microsoft.com/fwlink/?linkid=2067331
+Requerir que el cliente firme siempre las comunicaciones de forma digital,Sí,https://go.microsoft.com/fwlink/?linkid=2067187
+Impedir que los clientes envíen contraseñas sin cifrar a servidores SMB de terceros,Sí,https://go.microsoft.com/fwlink/?linkid=2067235
+servidor firme las comunicaciones de forma digital siempre,Sí,https://go.microsoft.com/fwlink/?linkid=2067319
+Impedir la enumeración anónima de cuentas SAM,Sí,https://go.microsoft.com/fwlink/?linkid=2067318
+Bloquee la enumeración anónima de cuentas SAM y recursos compartidos,Sí,https://go.microsoft.com/fwlink/?linkid=2067191
+Restrinja el acceso anónimo a canalizaciones y recursos compartidos con nombre,Sí,https://go.microsoft.com/fwlink/?linkid=2067212
+Permitir llamadas remotas al administrador de cuentas de seguridad,O:BAG:BAD:(A;; RC;;; BA),https://go.microsoft.com/fwlink/?linkid=2067209
+Evite almacenar el valor hash del administrador de LAN en el siguiente cambio de contraseña,Sí,https://go.microsoft.com/fwlink/?linkid=2067213
+Nivel de autenticación,enviar solo respuesta NTLMv2. Denegar LM y NTLM,https://go.microsoft.com/fwlink/?linkid=2067189
+Seguridad de sesión mínima para clientes basados en SSP NTLM,Requerir cifrado NTLM V2 128,https://go.microsoft.com/fwlink/?linkid=2067324
+Seguridad de sesión mínima para los servidores basados en NTLM SSP,requerir cifrado NTLM V2 y 128 bits,https://go.microsoft.com/fwlink/?linkid=2067246
+Comportamiento del símbolo del sistema de elevación del administrador,solicitar consentimiento en el escritorio seguro,https://go.microsoft.com/fwlink/?linkid=2067215
+Comportamiento estándar del símbolo del sistema de elevación del usuario,denegar automáticamente las solicitudes de elevación,https://go.microsoft.com/fwlink/?linkid=2067183
+Detección de instalaciones de aplicaciones y petición de elevación,Sí,https://go.microsoft.com/fwlink/?linkid=2067208
+Permitir solo aplicaciones de acceso a la interfaz de usuario para ubicaciones seguras,Sí,https://go.microsoft.com/fwlink/?linkid=2067185
+Requerir el modo de aprobación de administrador para los administradores,Sí,https://go.microsoft.com/fwlink/?linkid=2067184
+Usar el modo de aprobación de administrador,Sí,https://go.microsoft.com/fwlink/?linkid=2067186
+Virtualice los errores de escritura de archivos y registro en ubicaciones por usuario,Sí,https://go.microsoft.com/fwlink/?linkid=2067321
+Impedir que Adobe Reader cree procesos secundarios,Habilitar,https://go.microsoft.com/fwlink/?linkid=853979
+Bloquear el inicio de aplicaciones de comunicación de Office en un proceso secundario,Habilitar,https://go.microsoft.com/fwlink/?linkid=874499
+Escriba la frecuencia (0-24 horas) para comprobar si hay actualizaciones de inteligencia de seguridad.,4,https://go.microsoft.com/fwlink/?linkid=2113936
+Tipo de examen,examen rápido,https://go.microsoft.com/fwlink/?linkid=2114045
+Día de examen de programación de Defender,todos los días,Sin enlace
+Hora de inicio del examen de Defender,no configurado,Sin enlace
+Nivel de protección entregado en la nube,no configurado,https://go.microsoft.com/fwlink/?linkid=2113942
+Examinar archivos de red,Sí,https://go.microsoft.com/fwlink/?linkid=2114049
+Activar la protección en tiempo real,Sí,https://go.microsoft.com/fwlink/?linkid=2114050
+Examen de scripts que se usan en exploradores de Microsoft,Sí,https://go.microsoft.com/fwlink/?linkid=2114054
+Examinar archivos de archivo,Sí,https://go.microsoft.com/fwlink/?linkid=2114047
+Activar la supervisión del comportamiento,Sí,https://go.microsoft.com/fwlink/?linkid=2114048
+Active la protección entregada en la nube,Sí,https://go.microsoft.com/fwlink/?linkid=2113937
+Examinar los mensajes de correo entrantes,Sí,https://go.microsoft.com/fwlink/?linkid=2114052
+Examinar las unidades extraíbles durante un examen completo,Sí,https://go.microsoft.com/fwlink/?linkid=2113946
+Impedir que las aplicaciones de Office inserten código en otros procesos,Bloquear,https://go.microsoft.com/fwlink/?linkid=2113946
+Impedir que las aplicaciones de Office creen contenido ejecutable,Bloquear,https://go.microsoft.com/fwlink/?linkid=872975
+Impedir que todas las aplicaciones de Office creen procesos secundarios,Bloquear,https://go.microsoft.com/fwlink/?linkid=872976
+Bloquear llamadas API win32 desde la macro de Office,Bloquear,https://go.microsoft.com/fwlink/?linkid=872977
+Bloquear la ejecución de scripts potencialmente ofuscados (js/vbs/ps):,Bloquear,https://go.microsoft.com/fwlink/?linkid=872978
+Impedir que JavaScript o VBScript inicien contenido ejecutable descargado,Bloquear,https://go.microsoft.com/fwlink/?linkid=872979
+Bloquear la descarga de contenido ejecutable de clientes de correo electrónico y correo web,Bloquear,https://go.microsoft.com/fwlink/?linkid=872980
+Bloquear el robo de credenciales del subsistema de autoridad de seguridad local (lsass.exe) de Windows,Habilitar,https://go.microsoft.com/fwlink/?linkid=874499
+Acción de aplicación potencialmente no deseada de Defender,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-Microsoft_Intune_Workflows#defender-puaprotection
+Bloquee los procesos que no son de confianza y no firmados que se ejecutan desde USB,Bloquear,https://go.microsoft.com/fwlink/?linkid=874502
+Habilitación de la protección de red,Habilitar,https://go.microsoft.com/fwlink/?linkid=872618
+Tipo de consentimiento de envío de ejemplo de Defender,enviar muestras seguras automáticamente,https://go.microsoft.com/fwlink/?linkid=2067131
+Impedir que Adobe Reader cree procesos secundarios,Habilitar,https://go.microsoft.com/fwlink/?linkid=853979
+Bloquear el inicio de aplicaciones de comunicación de Office en un proceso secundario,Habilitar,https://go.microsoft.com/fwlink/?linkid=874499
+Escriba la frecuencia (0-24 horas) para comprobar si hay actualizaciones de inteligencia de seguridad.,4,https://go.microsoft.com/fwlink/?linkid=2113936
+Tipo de examen,examen rápido,https://go.microsoft.com/fwlink/?linkid=2114045
+Día de examen de programación de Defender,todos los días,Sin enlace
+Nivel de protección entregado en la nube,no configurado,https://go.microsoft.com/fwlink/?linkid=2113942
+Examinar archivos de red,Sí,https://go.microsoft.com/fwlink/?linkid=2114049
+Activar la protección en tiempo real,Sí,https://go.microsoft.com/fwlink/?linkid=2114050
+Examen de scripts que se usan en exploradores de Microsoft,Sí,https://go.microsoft.com/fwlink/?linkid=2114054
+Examinar archivos de archivo,Sí,https://go.microsoft.com/fwlink/?linkid=2114047
+Activar la supervisión del comportamiento,Sí,https://go.microsoft.com/fwlink/?linkid=2114048
+Active la protección entregada en la nube,Sí,https://go.microsoft.com/fwlink/?linkid=2113937
+Examinar los mensajes de correo entrantes,Sí,https://go.microsoft.com/fwlink/?linkid=2114052
+Examinar las unidades extraíbles durante un examen completo,Sí,https://go.microsoft.com/fwlink/?linkid=2113946
+Impedir que las aplicaciones de Office inserten código en otros procesos,Bloquear,https://go.microsoft.com/fwlink/?linkid=2113946
+Impedir que las aplicaciones de Office creen contenido ejecutable,Bloquear,https://go.microsoft.com/fwlink/?linkid=872975
+Impedir que todas las aplicaciones de Office creen procesos secundarios,Bloquear,https://go.microsoft.com/fwlink/?linkid=872976
+Bloquear llamadas API win32 desde la macro de Office,Bloquear,https://go.microsoft.com/fwlink/?linkid=872977
+Bloquear la ejecución de scripts potencialmente ofuscados (js/vbs/ps):,Bloquear,https://go.microsoft.com/fwlink/?linkid=872978
+Impedir que JavaScript o VBScript inicien contenido ejecutable descargado,Bloquear,https://go.microsoft.com/fwlink/?linkid=872979
+Bloquear la descarga de contenido ejecutable de clientes de correo electrónico y correo web,Bloquear,https://go.microsoft.com/fwlink/?linkid=872980
+Bloquear el robo de credenciales del subsistema de autoridad de seguridad local (lsass.exe) de Windows,Habilitar,https://go.microsoft.com/fwlink/?linkid=874499
+Acción de aplicación potencialmente no deseada de Defender,Bloquear,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-defender?WT.mc_id=Portal-Microsoft_Intune_Workflows#defender-puaprotection
+Bloquee los procesos que no son de confianza y no firmados que se ejecutan desde USB,Bloquear,https://go.microsoft.com/fwlink/?linkid=874502
+Habilitación de la protección de red,Habilitar,https://go.microsoft.com/fwlink/?linkid=872618
+Tipo de consentimiento de envío de ejemplo de Defender,enviar muestras seguras automáticamente,https://go.microsoft.com/fwlink/?linkid=2067131
+Configuración de inicio del controlador de cliente SMB v1,controlador deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067214
+Aplique restricciones de UAC a las cuentas locales en el inicio de sesión de red,habilitado,https://go.microsoft.com/fwlink/?linkid=2067188
+Protección de sobrescritura del control estructurado de excepciones,habilitado,https://go.microsoft.com/fwlink/?linkid=2067217
+Servidor SMB v1,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067190
+Autenticación implícita,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067193
+Nivel de protección de enrutamiento de origen IPv6 de red,protección más alta,https://go.microsoft.com/fwlink/?linkid=2067216
+Nivel de protección de enrutamiento de origen ip de red,protección más alta,https://go.microsoft.com/fwlink/?linkid=2067220
+"La red omite las solicitudes de versión de nombre netBIOS, excepto los servidores WINS",habilitado,https://go.microsoft.com/fwlink/?linkid=2067218
+Los redireccionamientos ICMP de red invalidan las rutas generadas por OSPF,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067326
+Requerir contraseña al activar la batería,habilitado,https://go.microsoft.com/fwlink/?linkid=2067322
+Requerir contraseña al reactivar mientras está conectado,habilitado,https://go.microsoft.com/fwlink/?linkid=2067221
+Estados de espera al dormir mientras está en batería,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067195
+Estados de espera al dormir mientras está conectado,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067196
+Asistencia remota solicitada,Deshabilitar asistencia remota,https://go.microsoft.com/fwlink/?linkid=2067198
+Nivel de cifrado de conexión de cliente de servicios de Escritorio remoto,Alto,https://go.microsoft.com/fwlink/?linkid=2067222
+Bloquear el redireccionamiento de la unidad,habilitado,Sin enlace
+Bloquear el guardado de contraseñas,habilitado,https://go.microsoft.com/fwlink/?linkid=2067301
+Solicitar contraseña tras la conexión,habilitado,https://go.microsoft.com/fwlink/?linkid=2067328
+Comunicación RPC segura,habilitado,https://go.microsoft.com/fwlink/?linkid=2067248
+Bloquear la autenticación implícita de cliente,habilitado,https://go.microsoft.com/fwlink/?linkid=2067302
+Bloquear el almacenamiento de la ejecución como credenciales,habilitado,https://go.microsoft.com/fwlink/?linkid=2067300
+Autenticación básica de cliente,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067252
+Autenticación básica,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067223
+Tráfico de cliente sin cifrar,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067304
+Tráfico sin cifrar,deshabilitado,https://go.microsoft.com/fwlink/?linkid=2067226
+Opciones de cliente rpc no autenticadas,autenticado,https://go.microsoft.com/fwlink/?linkid=2067225
+Deshabilitar la indexación de elementos cifrados,Sí,https://go.microsoft.com/fwlink/?linkid=2067303
+Activar Windows SmartScreen,Sí,https://learn.microsoft.com/es-es/windows/client-management/mdm/policy-csp-smartscreen#smartscreen-enablesmartscreeninshell
+Impedir que los usuarios ignoren las advertencias de SmartScreen,Sí,https://go.microsoft.com/fwlink/?linkid=872783
+Inicialización del controlador de inicio del sistema,bueno desconocido y crítico,https://go.microsoft.com/fwlink/?linkid=2067307
+Bloquear La conexión automática a zonas activas de Wi-Fi,Sí,https://go.microsoft.com/fwlink/?linkid=2067320
+Bloquear el uso compartido de Internet,Sí,https://go.microsoft.com/fwlink/?linkid=2067327
+Bloquear la conexión a redes que no son de dominio,habilitado,https://go.microsoft.com/fwlink/?linkid=2067323
+Área de trabajo de Ink,habilitado,https://go.microsoft.com/fwlink/?linkid=2067241
+Registro de bloques de script de PowerShell,habilitado,https://go.microsoft.com/fwlink/?linkid=2067330
+Sin configuración,Sin valor predeterminado,https://learn.microsoft.com/security-baselines
+Sin configuración,Sin valor predeterminado,https://learn.microsoft.com/security-baselines#avoid-conflicts
+Sin configuración,Sin valor predeterminado,https://learn.microsoft.com/es-es/troubleshoot/mem/intune/troubleshoot-policies-in-microsoft-intune
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,https://learn.microsoft.com/es-es/previous-versions/
+Sin configuración,Sin valor predeterminado,https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog
+Sin configuración,Sin valor predeterminado,https://learn.microsoft.com/es-es/contribute/
+Sin configuración,Sin valor predeterminado,https://go.microsoft.com/fwlink/?LinkId=521839
+Sin configuración,Sin valor predeterminado,https://learn.microsoft.com/es-es/legal/termsofuse
+Sin configuración,Sin valor predeterminado,https://www.microsoft.com/legal/intellectualproperty/Trademarks/
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,Sin enlace
+Sin configuración,Sin valor predeterminado,https://learn.microsoft.com/es-es/previous-versions/
+Sin configuración,Sin valor predeterminado,https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog
+Sin configuración,Sin valor predeterminado,https://learn.microsoft.com/es-es/contribute/
+Sin configuración,Sin valor predeterminado,https://go.microsoft.com/fwlink/?LinkId=521839
+Sin configuración,Sin valor predeterminado,https://learn.microsoft.com/es-es/legal/termsofuse
+Sin configuración,Sin valor predeterminado,https://www.microsoft.com/legal/intellectualproperty/Trademarks/
+Sin configuración,Sin valor predeterminado,Sin enlace
