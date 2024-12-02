@@ -1,0 +1,9 @@
+# inventario.yml
+---
+clientes:
+  - nombre: Prueba
+    ip: 192.168.1.100
+    usuario: admin
+    password: !vault |
+      $ANSIBLE_VAULT;1.1;AES256
+      1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
