@@ -1,0 +1,10 @@
+*.csv
+*.txt
+.DS_Store
+*.pyc
+run.sh
+~$*
+*.xlsx
+venv/
+benchmarks/
+pdfs/

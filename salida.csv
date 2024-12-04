@@ -1,0 +1,107 @@
+1.1.1.1,(L1) Ensure 'Allow add -on installs from websites' is set to 'Disabled' (Automated)  ..... 13 
+1.1.2.1,(L1) Ensure 'NTLM' is set to 'Disabled' (Automated)  ................................ ....................  16 
+1.1.5.1,(L1) Ensure 'Active Logins� is set to �Disabled� (Automated)  ................................ ........  19 
+1.1.5.2,(L1) Ensure 'Browsing History' is set to 'Disabled' (Automated)  ................................ ... 21 
+1.1.5.3,(L1) Ensure 'Download History' is set to 'Disabled' (Automated)  ................................ . 23 
+1.1.5.4,(L1) Ensure 'Form & Search History' is set to 'Disabled' (Automated)  .........................  25 
+1.1.6.1,(L1) Ensure 'Cookie Behavior' is set to 'Enabled: Reject cookies for known trackers 
+1.1.6.2,(L1) Ensure 'Cookie Behavior in private browsing' is set to 'Enabled: Reject cookies for 
+1.1.7.1,(L1) Ensure 'TLS_RSA_WITH_3DES_EDE_CBC_SHA ' is set to 'Enabled' 
+1.1.9.1,(L1) Ensure 'Lock Encrypted Media Extensions� is set to �Enabled� (Automated)  ........  38 
+1.1.10.1,(L1) Ensure 'Extension Update' is set to 'Enabled' (Automated)  ................................  41 
+1.1.12.1,(L1) Ensure 'Activate Flash on websites' is set to 'Disabled' (Automated)  .................  44 
+1.1.15.1,Autoplay  ................................ ................................ ................................ ...............................  46 
+1.1.15.2,Camera  ................................ ................................ ................................ ................................ . 46 
+1.1.15.3,Location  ................................ ................................ ................................ .............................  46 
+1.1.17.1,(L1) Ensure 'Block pop -ups from websites' is set to 'Enabled' (Automated)  ..............  53 
+1.1.17.2,(L1) Ensure 'Do not allow preferences to be changed' is set to 'Enabled' (Automated)
+1.1.18.1,(L1) Ensure 'browser.safebrowsing.malware.enabled' is set to 'Enabled' (Automated)
+1.1.18.2,(L1) Ensure 'browser.safebrowsing.phishing.enabled' is set to 'Enabled' (Automated)
+1.1.18.3,(L1) Ensure 'browser.search.update' is set to 'Enabled' (Automated)  ........................  62 
+1.1.18.4,(L1) Ensure 'dom.allow_scripts_to_close_windows' is set to 'Disabled' (Automated)  64 
+1.1.18.5,(L1) Ensure 'dom.disable_window_flip' is set to 'Enabled' (Automated)  ....................  66 
+1.1.18.6,(L1) Ensure 'dom.disable_window_move_resize' is set to 'Enabled' (Automated)  .... 68 
+1.1.18.7,(L1) Ensure 'extensions.blocklist.enabled' is set to 'Enabled' (Automated)  ...............  70 
+1.1.18.8,(L1) Ensure 'media.peerconnection.enabled' is set to 'Disabled' (Automated)  ..........  72 
+1.1.18.9,(L2) Ensure 'network.IDN_show_punycode' is set to 'Enabled' (Automated)  ............  74 
+1.1.18.10,(L1) Ensure 'security.mixed_content.block_active_content' is set to 'Enabled' 
+1.1.19.1,(L1) Ensure 'Connection Type' is set to 'Enabled: No Proxy' (Automated)  ................  79 
+1.1.19.2,(L1) Ensure 'Do not allow proxy settings to be changed' is set to 'Enabled' 
+1.1.20.1,(L2) Ensure 'Search Suggestions' is set to 'Disabled' (Automated)  ...........................  84 
+1.1.22.1,(L1) Ensure 'Cryptomining' is set to 'Enabled' (Automated)  ................................ ....... 87 
+1.1.22.3,(L1) Ensure 'Email Tracking' is set to 'Enabled' (Automated)  ................................ ..... 91 
+1.1.22.4,(L1) Ensure 'Enabled' is set to 'Enabled' (Automated)  ................................ ...............  93 
+1.1.22.5,(L1) Ensure 'Fingerprinting' is set to 'Enabled' (Automated)  ................................ ...... 95 
+1.1.23.1,(L1) Ensure 'Extension Recommendations' is set to 'Disabled' (Automated)  .............  98 
+1.1.1.1,(L1) Ensure 'Allow add -on installs from websites' is set to 
+1.1.1.1,(L1) Ensure 'Allow add -on installs from websites' is set to 'Disabled' (Automated)  ..... 13 
+1.1.2.1,(L1) Ensure 'NTLM' is set to 'Disabled' (Automated)  ................................ ....................  16 
+1.1.5.1,(L1) Ensure 'Active Logins’ is set to ‘Disabled’ (Automated)  ................................ ........  19 
+1.1.5.2,(L1) Ensure 'Browsing History' is set to 'Disabled' (Automated)  ................................ ... 21 
+1.1.5.3,(L1) Ensure 'Download History' is set to 'Disabled' (Automated)  ................................ . 23 
+1.1.5.4,(L1) Ensure 'Form & Search History' is set to 'Disabled' (Automated)  .........................  25 
+1.1.6.1,(L1) Ensure 'Cookie Behavior' is set to 'Enabled: Reject cookies for known trackers 
+1.1.6.2,(L1) Ensure 'Cookie Behavior in private browsing' is set to 'Enabled: Reject cookies for 
+1.1.7.1,(L1) Ensure 'TLS_RSA_WITH_3DES_EDE_CBC_SHA ' is set to 'Enabled' 
+1.1.9.1,(L1) Ensure 'Lock Encrypted Media Extensions’ is set to ‘Enabled’ (Automated)  ........  38 
+1.1.10.1,(L1) Ensure 'Extension Update' is set to 'Enabled' (Automated)  ................................  41 
+1.1.12.1,(L1) Ensure 'Activate Flash on websites' is set to 'Disabled' (Automated)  .................  44 
+1.1.15.1,Autoplay  ................................ ................................ ................................ ...............................  46 
+1.1.15.2,Camera  ................................ ................................ ................................ ................................ . 46 
+1.1.15.3,Location  ................................ ................................ ................................ .............................  46 
+1.1.17.1,(L1) Ensure 'Block pop -ups from websites' is set to 'Enabled' (Automated)  ..............  53 
+1.1.17.2,(L1) Ensure 'Do not allow preferences to be changed' is set to 'Enabled' (Automated)
+1.1.18.1,(L1) Ensure 'browser.safebrowsing.malware.enabled' is set to 'Enabled' (Automated)
+1.1.18.2,(L1) Ensure 'browser.safebrowsing.phishing.enabled' is set to 'Enabled' (Automated)
+1.1.18.3,(L1) Ensure 'browser.search.update' is set to 'Enabled' (Automated)  ........................  62 
+1.1.18.4,(L1) Ensure 'dom.allow_scripts_to_close_windows' is set to 'Disabled' (Automated)  64 
+1.1.18.5,(L1) Ensure 'dom.disable_window_flip' is set to 'Enabled' (Automated)  ....................  66 
+1.1.18.6,(L1) Ensure 'dom.disable_window_move_resize' is set to 'Enabled' (Automated)  .... 68 
+1.1.18.7,(L1) Ensure 'extensions.blocklist.enabled' is set to 'Enabled' (Automated)  ...............  70 
+1.1.18.8,(L1) Ensure 'media.peerconnection.enabled' is set to 'Disabled' (Automated)  ..........  72 
+1.1.18.9,(L2) Ensure 'network.IDN_show_punycode' is set to 'Enabled' (Automated)  ............  74 
+1.1.18.10,(L1) Ensure 'security.mixed_content.block_active_content' is set to 'Enabled' 
+1.1.19.1,(L1) Ensure 'Connection Type' is set to 'Enabled: No Proxy' (Automated)  ................  79 
+1.1.19.2,(L1) Ensure 'Do not allow proxy settings to be changed' is set to 'Enabled' 
+1.1.20.1,(L2) Ensure 'Search Suggestions' is set to 'Disabled' (Automated)  ...........................  84 
+1.1.22.1,(L1) Ensure 'Cryptomining' is set to 'Enabled' (Automated)  ................................ ....... 87 
+1.1.22.3,(L1) Ensure 'Email Tracking' is set to 'Enabled' (Automated)  ................................ ..... 91 
+1.1.22.4,(L1) Ensure 'Enabled' is set to 'Enabled' (Automated)  ................................ ...............  93 
+1.1.22.5,(L1) Ensure 'Fingerprinting' is set to 'Enabled' (Automated)  ................................ ...... 95 
+1.1.23.1,(L1) Ensure 'Extension Recommendations' is set to 'Disabled' (Automated)  .............  98 
+1.1.1.1,(L1) Ensure 'Allow add -on installs from websites' is set to 
+1.1.2.1,(L1) Ensure 'NTLM' is set to 'Disabled' (Automated)    
+1.1.5.1,(L1) Ensure 'Active Logins’ is set to ‘Disabled’ 
+1.1.5.2,(L1) Ensure 'Browsing History' is set to 'Disabled' 
+1.1.5.3,(L1) Ensure 'Download History' is set to 'Disabled' 
+1.1.5.4,(L1) Ensure 'Form & Search History' is set to 'Disabled' 
+1.1.5.5,(L1) Ensure 'Locked' is set to 'Enabled' (Automated)    
+1.1.6.1,(L1) Ensure 'Cookie Behavior' is set to 'Enabled: Reject 
+1.1.6.2,(L1) Ensure 'Cookie Behavior in private browsing' is set 
+1.1.7.1,(L1) Ensure 'TLS_RSA_WITH_3DES_EDE_CBC_SHA ' 
+1.1.9.1,(L1) Ensure 'Lock Encrypted Media Extensions’ is set to 
+1.1.10.1,(L1) Ensure 'Extension Update' is set to 'Enabled' 
+1.1.12.1,(L1) Ensure 'Activate Flash on websites' is set to 
+1.1.15.1,Autoplay  
+1.1.15.2,Camera  
+1.1.17.1,(L1) Ensure 'Block pop -ups from websites' is set to 
+1.1.17.2,(L1) Ensure 'Do not allow preferences to be changed' is 
+1.1.18.1,(L1) Ensure 'browser.safebrowsing.malware.enabled' is 
+1.1.18.2,(L1) Ensure 'browser.safebrowsing.phishing.enabled' is 
+1.1.18.3,(L1) Ensure 'browser.search.update' is set to 'Enabled' 
+1.1.18.4,(L1) Ensure 'dom.allow_scripts_to_close_windows' is set 
+1.1.18.5,(L1) Ensure 'dom.disable_window_flip' is set to 'Enabled' 
+1.1.18.6,(L1) Ensure 'dom.disable_window_move_resize' is set to 
+1.1.18.7,(L1) Ensure 'extensions.blocklist.enabled' is set to 
+1.1.18.8,(L1) Ensure 'media.peerconnection.enabled' is set to 
+1.1.18.9,(L2) Ensure 'network.IDN_show_punycode' is set to 
+1.1.18.10,(L1) Ensure 
+1.1.19.1,(L1) Ensure 'Connection Type' is set to 'Enabled: No 
+1.1.19.2,(L1) Ensure 'Do not allow proxy settings to be changed' 
+1.1.20.1,(L2) Ensure 'Search Suggestions' is set to 'Disabled' 
+1.1.22.1,(L1) Ensure 'Cryptomining' is set to 'Enabled' 
+1.1.22.2,(L1) Ensure 'Do not allow tracking protection preferences 
+1.1.22.3,(L1) Ensure 'Email Tracking' is set to 'Enabled' 
+1.1.22.4,(L1) Ensure 'Enabled' is set to 'Enabled' (Automated)    
+1.1.22.5,(L1) Ensure 'Fingerprinting' is set to 'Enabled' 
+1.1.23.1,(L1) Ensure 'Extension Recommendations' is set to 

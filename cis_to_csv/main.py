@@ -1,76 +1,103 @@
-import os
-import re
-from PyPDF2 import PdfReader
-from tqdm import tqdm
+import csv
+import chardet
 
-# Crear un archivo CSV vacío
-output_file = "policies.csv"
-with open(output_file, "w") as file:
-    file.write("Policy,Profile Applicability,Description,Rationale,Impact,Audit,Remediation,Default Value\n")
+def detect_encoding(file_path):
+    with open(file_path, 'rb') as file:
+        result = chardet.detect(file.read())
+        encoding = result['encoding']
+        return encoding
 
-# Leer el PDF y extraer el texto
-pdf_path = "input.pdf"
-text = ""
-with open(pdf_path, "rb") as pdf_file:
-    pdf = PdfReader(pdf_file)
-    for page in pdf.pages:
-        text += page.extract_text()
+def read_pdf_file(file_path, encoding):
+    with open(file_path, 'r', encoding=encoding, errors='ignore') as f:
+        lines = f.readlines()
+    return lines
 
-# Variables para almacenar temporalmente cada sección
-policy = ""
-profile_applicability = ""
-description = ""
-rationale = ""
-impact = ""
-audit = ""
-remediation = ""
-default_value = ""
-title = ""
-capture_section = ""  # Inicializar capture_section aquí
+def process_pdf_lines(lines):
+    list_title = []
+    list_profile = []
+    list_description = []
+    list_impact = []
+    list_rationale = []
+    list_remediation = []
+    list_default_value = []
+    list_bin = []
+    list_csv_header = ["Section", "Title", "Profile Level", "Profile", "Description", "Impact", "Rationale", "Remediation"]
 
-# Procesar el texto extraído del PDF
-lines = text.split("\n")
-num_lines = len(lines)
-for line in tqdm(lines, desc="Processing PDF"):
-    line = line.strip()
-    if line.endswith(":"):
-        header = line[:-1]
-        if header == "Profile Applicability":
-            capture_section = "profile_applicability"
-            # Extraer el título desde la línea anterior
-            title_match = re.search(r'\((.*?)\)', title)
-            if title_match:
-                title = title_match.group(1)
-        else:
-            capture_section = header.lower().replace(" ", "_")
+    bucket = list_bin
+
+    for line in lines:
+        bucket = func_define_bucket(line, bucket)
+        if bucket == list_title:
+            list_title.append(line.strip())
+        elif bucket == list_description:
+            list_description.append(line.strip())
+        elif bucket == list_impact:
+            list_impact.append(line.strip())
+        elif bucket == list_rationale:
+            list_rationale.append(line.strip())
+        elif bucket == list_remediation:
+            list_remediation.append(line.strip())
+        elif bucket == list_default_value:
+            list_default_value.append(line.strip())
+        elif bucket == list_profile:
+            list_profile.append(line.strip())
+
+    return list_title, list_description, list_impact, list_rationale, list_remediation, list_default_value, list_profile
+
+def func_define_bucket(line, bucket):
+    list_bin = []  # Define la variable list_bin
+    if line[:1].isnumeric() and ("(L1)" in line or "(L2)" in line or "(NG)" in line):
+        bucket = list_title
+    elif "Description:" in line:
+        bucket = list_description
+    elif "Impact:" in line:
+        bucket = list_impact
+    elif "Rationale:" in line:
+        bucket = list_rationale
+    elif "Remediation:" in line:
+        bucket = list_remediation
+    elif "Default Value:" in line:
+        bucket = list_bin
+    elif " | P a g e" in line or "Page" in line:
+        bucket = list_bin
+    elif "Profile Applicability:" in line:
+        bucket = list_profile
+    elif "Audit:" in line:
+        bucket = list_bin
+    elif "References:" in line:
+        bucket = list_bin
+    elif "CIS Controls:" in line:
+        bucket = list_bin
     else:
-        if capture_section:
-            # Añadir la línea al contenido actual
-            if capture_section == "policy":
-                title = line.split("->")[0].strip()
-                policy = line.split("->")[1].strip()
-            else:
-                # Verificar si la clave está presente en locals() antes de acceder a ella
-                if capture_section not in locals():
-                    locals()[capture_section] = ""
-                locals()[capture_section] += line + " "
+        bucket = bucket
+    return bucket
 
-    # Detectar fin de una política (cuando la línea siguiente esté vacía)
-    if not line:
-        with open(output_file, "a") as out_file:
-            out_file.write(f"{policy},\"{title}\",\"{description}\",\"{rationale}\",\"{impact}\",\"{audit}\",\"{remediation}\",\"{default_value}\"\n")
+def export_data_to_csv(list_title, list_description, list_impact, list_rationale, list_remediation, list_default_value, list_profile, output_file):
+    list_csv_header = ["Section", "Title", "Profile Level", "Profile", "Description", "Impact", "Rationale", "Remediation"]
+    fieldnames = ['Section', 'Title', 'Profile Level', 'Profile', 'Description', 'Impact', 'Rationale', 'Remediation']
+    with open(output_file, 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for i in range(len(list_title)):
+            data = {
+                'Section': list_csv_header[0],
+                'Title': list_title[i],
+                'Profile Level': list_csv_header[2],
+                'Profile': list_profile[i],
+                'Description': list_description[i],
+                'Impact': list_impact[i],
+                'Rationale': list_rationale[i],
+                'Remediation': list_remediation[i]
+            }
+            writer.writerow(data)
 
-        # Reiniciar variables
-        policy = ""
-        profile_applicability = ""
-        description = ""
-        rationale = ""
-        impact = ""
-        audit = ""
-        remediation = ""
-        default_value = ""
-        title = ""
-        capture_section = ""  # Reinicializar capture_section al final de cada sección
+def main():
+    input_file = 'archivo.pdf'
+    output_file = 'policy.csv'
+    encoding = detect_encoding(input_file)
+    lines = read_pdf_file(input_file, encoding)
+    list_title, list_description, list_impact, list_rationale, list_remediation, list_default_value, list_profile = process_pdf_lines(lines)
+    export_data_to_csv(list_title, list_description, list_impact, list_rationale, list_remediation, list_default_value, list_profile, output_file)
 
-# Eliminar archivo temporal
-# os.remove("temp.txt")
+if __name__ == '__main__':
+    main()
