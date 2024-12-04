@@ -4,6 +4,7 @@ import argparse
 import re
 import os
 import logging
+import chardet
 
 
 # TODO - Probably use contexts in the future
@@ -68,79 +69,90 @@ class CISConverter:
 
     def write_row(self, row):
         logging.debug(row)
-
+    
     def parse_text(self):
-        with open(self.args.inputFilePath, mode='rt', encoding='utf8') as inFile:
-            logging.info(f'Parsing {self.args.inputFilePath}')
-
-            row = None
-            cur_mode = None
-            force_write = False
-
-            self.write_header()
-
-            for line in inFile:
-                # line = line.replace('\n', '')
-                logging.debug(f'Line: "{line}"')
-                self.metrics_total += 1
-                # line = line.strip()
-                # Skip garbage lines here
-                if any(ele in line for ele in CISConverter.garbage_list):
-                    continue
-
-                match = CISConverter.searcher.match(line)
-                if match or force_write:
-                    # Check if row is created, skips initial blanks
-                    if row:
-                        if row['Type'] == None:
-                            if len(row['Profile Applicability']) == 1:
-                                row['Type'] = row['Profile Applicability'][0]
+        try:
+            with open(self.args.inputFilePath, mode='rb') as inFile:
+                rawdata = inFile.read()
+                result = chardet.detect(rawdata)
+                charenc = result['encoding']
+    
+            with open(self.args.inputFilePath, mode='rt', encoding=charenc) as inFile:
+                logging.info(f'Parsing {self.args.inputFilePath}')
+    
+                row = None
+                cur_mode = None
+                force_write = False
+    
+                self.write_header()
+    
+                for line in inFile:
+                    # line = line.replace('\n', '')
+                    logging.debug(f'Line: "{line}"')
+                    self.metrics_total += 1
+                    # line = line.strip()
+                    # Skip garbage lines here
+                    if any(ele in line for ele in CISConverter.garbage_list):
+                        continue
+    
+                    match = CISConverter.searcher.match(line)
+                    if match or force_write:
+                        # Check if row is created, skips initial blanks
+                        if row:
+                            if row['Type'] == None:
+                                if len(row['Profile Applicability']) == 1:
+                                    row['Type'] = row['Profile Applicability'][0]
+                                else:
+                                    row['Type'] = 'See Profile Applicability'
+                            for key in row.keys():
+                                if isinstance(row[key], list):
+                                    row[key] = '\n'.join(row[key])
+                            self.write_row(row)
+    
+                            self.metrics_good += 1
+                            if force_write:
+                                break
+                        row = self.build_blank()
+                        row['Benchmark'] = os.path.basename(self.args.inputFilePath)[:-4]
+                        row['CIS #'] = match.group('cisnum')
+                        row['Type'] = match.group('level')
+                        row['Policy'] = match.group('policy')
+                        row['Scored'] = match.group('scored')
+                        cur_mode = None
+                        continue
+    
+                    else:
+                        mode_set = False
+                        for mode in CISConverter.modes:
+                            if line.startswith(f'{mode}:'):
+                                cur_mode = mode
+                                mode_set = True
+    
+                        # Only do something on the line(s) after a mode set
+                        if not mode_set and cur_mode:
+                            # # Perform sanitization here.
+                            if cur_mode == 'Profile Applicability':
+                                line = line.replace('\uf0b7 ', '', 1)
+                            line = line.replace(' ', '', 1)
+                            # check if we have transitioned to Appendix
+                            if any(ele in line for ele in CISConverter.appendix_list):
+                                cur_mode = None
+                                force_write = True
+                                continue
+    
+                            if isinstance(row[cur_mode], str):
+                                row[cur_mode] += line
+                            elif isinstance(row[cur_mode], list):
+                                row[cur_mode].append(line.strip())
                             else:
-                                row['Type'] = 'See Profile Applicability'
-                        for key in row.keys():
-                            if isinstance(row[key], list):
-                                row[key] = '\n'.join(row[key])
-                        self.write_row(row)
-
-                        self.metrics_good += 1
-                        if force_write:
-                            break
-                    row = self.build_blank()
-                    row['Benchmark'] = os.path.basename(self.args.inputFilePath)[:-4]
-                    row['CIS #'] = match.group('cisnum')
-                    row['Type'] = match.group('level')
-                    row['Policy'] = match.group('policy')
-                    row['Scored'] = match.group('scored')
-                    cur_mode = None
-                    continue
-
-                else:
-                    mode_set = False
-                    for mode in CISConverter.modes:
-                        if line.startswith(f'{mode}:'):
-                            cur_mode = mode
-                            mode_set = True
-
-                    # Only do something on the line(s) after a mode set
-                    if not mode_set and cur_mode:
-                        # # Perform sanitization here.
-                        if cur_mode == 'Profile Applicability':
-                            line = line.replace('\uf0b7 ', '', 1)
-                        line = line.replace(' ', '', 1)
-                        # check if we have transitioned to Appendix
-                        if any(ele in line for ele in CISConverter.appendix_list):
-                            cur_mode = None
-                            force_write = True
-                            continue
-
-                        if isinstance(row[cur_mode], str):
-                            row[cur_mode] += line
-                        elif isinstance(row[cur_mode], list):
-                            row[cur_mode].append(line.strip())
-                        else:
-                            logging.critical('ERROR: Bad type. This should never happen.')
-                            exit(-1)
-
+                                logging.critical('ERROR: Bad type. This should never happen.')
+                                exit(-1)
+    
+        except Exception as e:
+            logging.error(f'Error occurred: {e}')
+            logging.error(f'File: {self.args.inputFilePath}')
+            logging.error(f'Encoding: {charenc}')
+    
         logging.info(f'Total lines: {self.metrics_total}')
         logging.info(f'Written Rows: {self.metrics_good}')
 
