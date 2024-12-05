@@ -1,0 +1,11 @@
+Title,Profile Applicability,Description,Rationale,Impact,Audit,Remediation,Default Value
+1.1.5.1 (L1) Ensure 'Active Logins’ is set to ‘Disabled’ (Automated) ,,,,,,,
+1.1.5.5 (L1) Ensure 'Locked' is set to 'Enabled' (Automated) ,,,,,,,
+1.1.6.1 (L1) Ensure 'Cookie Behavior' is set to 'Enabled: Reject cookies for known trackers and partition third-party cookies' (Automated) ,,,,,,,
+1.1.6.2 (L1) Ensure 'Cookie Behavior in private browsing' is set to 'Enabled: Reject cookies for known trackers and partition thirdparty cookies' (Automated) ,,,,,,,
+1.1.7.1 (L1) Ensure 'TLS_RSA_WITH_3DES_EDE_CBC_SHA ' is set to 'Enabled' (Automated) ,,,,,,,
+1.1.9.1 (L1) Ensure 'Lock Encrypted Media Extensions’ is set to ‘Enabled’ (Automated) ,,,,,,,
+1.1.10.1 (L1) Ensure 'Extension Update' is set to 'Enabled' (Automated) ,,,,,,,
+1.1.12.1 (L1) Ensure 'Activate Flash on websites' is set to 'Disabled' (Automated) ,,,,,,,
+1.1.15.1.1 (L1) Ensure 'Block new requests asking to access location' is set to 'Enabled' (Automated) ,,,,,,,
+1.1.15.1.2 (L1) Ensure 'Do not allow preferences to be changed' is set to 'Enabled' (Automated) ,,,,,,,
