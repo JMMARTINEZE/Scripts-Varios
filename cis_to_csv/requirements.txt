@@ -1,0 +1,4 @@
+# Remember install java before install this package
+tika
+pandas
+openpyxl
