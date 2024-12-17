@@ -37,4 +37,4 @@ class Translator:
         translated_df.to_excel(output_file, index=False)
 
 translator = Translator()
-translator.translate_excel('documento.xlsx', 'documento_traducido.xlsx')
+translator.translate_excel('MDM_INGLES.xlsx', 'MDM_ESPANOL.xlsx')
