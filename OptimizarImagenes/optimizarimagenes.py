@@ -6,6 +6,7 @@ CARPETA_ENTRADA = os.path.join(os.path.dirname(__file__), 'input')
 CARPETA_SALIDA = os.path.join(os.path.dirname(__file__), 'output')
 ANCHO_MAXIMO = 1920
 CALIDAD_WEBP = 80  # calidad recomendada para webp
+ANCHO_MINIATURA = 100
 
 # Crear carpeta de salida si no existe
 os.makedirs(CARPETA_SALIDA, exist_ok=True)
@@ -18,6 +19,7 @@ for archivo in os.listdir(CARPETA_ENTRADA):
         # Quitar extensión para nuevo nombre
         nombre_sin_extension = os.path.splitext(archivo)[0]
         ruta_salida = os.path.join(CARPETA_SALIDA, f"{nombre_sin_extension}.webp")
+        ruta_miniatura = os.path.join(CARPETA_SALIDA, f"{nombre_sin_extension}_mini.webp")
 
         with Image.open(ruta_entrada) as img:
             img = img.convert("RGB")  # convertir a RGB si no lo está
@@ -29,7 +31,12 @@ for archivo in os.listdir(CARPETA_ENTRADA):
             # Guardar como .webp optimizado
             img.save(ruta_salida, format='WEBP', quality=CALIDAD_WEBP, method=6)
 
+            # Crear miniatura
+            img_miniatura = img.copy()
+            img_miniatura.thumbnail((ANCHO_MINIATURA, ANCHO_MINIATURA))
+            img_miniatura.save(ruta_miniatura, format='WEBP', quality=CALIDAD_WEBP, method=6)
+
         # Borrar el original
         os.remove(ruta_entrada)
 
-print(" Todas las imágenes han sido optimizadas y se han eliminado los originales. Las nuevas imágenes han sido convertidas a .webp.")
+print(" Todas las imágenes han sido optimizadas, se han creado miniaturas de cada imagen y convertidas a .webp. Los originales han sido eliminados")
